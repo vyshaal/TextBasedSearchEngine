@@ -28,8 +28,8 @@ def parse_text(file):
 
     unigrams = content.get_text().split()
     docid = get_docID(file)
-    document_tokens[docid] = unigrams
-    update_index(Counter(unigrams),docid)
+    document_tokens[docid] = filter_words(unigrams,docid)
+    update_index(Counter(document_tokens[docid]),docid)
 
 
 def update_index(unigram_counter,docid):
@@ -40,6 +40,17 @@ def update_index(unigram_counter,docid):
             inverted_index[key][docid] = value
         except KeyError:
             inverted_index[key] = {docid: value}
+
+
+def filter_words(unigrams,docid):
+    index = [i for i in range(len(unigrams)) if "PM" in unigrams[i] or "AM" in unigrams[i]][-1]
+    filtered_words = unigrams[:index+1]
+    return clean_content(" ".join(filtered_words)).split()
+
+
+def clean_content(s):
+    s = s.replace('-',' ').lower()
+    return ''.join(e for e in s if e.isalnum() or e == " ")
 
 
 build_indexer()

@@ -2,21 +2,27 @@ import re
 import pickle
 
 relevance_values_file_path = "../given_files/cacm.rel"
-relevance_values = {}
+relevance_dict = {}
 
 
 def read_file():
     with open(relevance_values_file_path) as file:
         for line in file:
             entry = line.split(" ")
+            value = work_around(str(entry[2]))
             try:
-                value = relevance_values[entry[0]] + "," + str(entry[2])
+                relevance_dict[entry[0]] += "," + value
             except KeyError:
-                value = str(entry[2])
-            relevance_values[entry[0]] =value
+                relevance_dict[entry[0]] = value
 
-    pickle.dump(relevance_values, open("relevance_values.p", "wb"))
-    print(relevance_values)
+    pickle.dump(relevance_dict, open("relevance_dict.p", "wb"))
+#    print(relevance_dict)
+
+
+def work_around(s):
+    while len(s) < 9:
+        s = s.replace('-', '-0')
+    return s
 
 read_file()
 
