@@ -12,16 +12,16 @@ class CosineSimilarity:
 
     def cosine_similarity_list(self, query_list):
         ranked_list = {}
-        for query in query_list.values():
+        for query in query_list:
             ranked_list[query] = self.get_ranked_list(query)
         return ranked_list
 
     def get_ranked_list(self, query):
         document_scores = {}
         query_magnitude = self.calculate_query_magnitude(query)
-        for key, value in self.document_tokens.items():
-            document_magnitude = self.calculate_document_magnitude(key)
-            document_scores[key] = self.cosine_sim_value(key, query.split(), document_magnitude, query_magnitude)
+        for doc, value in self.document_tokens.items():
+            document_magnitude = self.calculate_document_magnitude(doc)
+            document_scores[doc] = self.cosine_sim_value(doc, query.split(), document_magnitude, query_magnitude)
         return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)
 
     def calculate_document_magnitude(self, doc):
@@ -69,7 +69,7 @@ class TFIDF:
 
     def tf_idf_list(self, query_list):
         ranked_list = {}
-        for query in query_list.values():
+        for query in query_list:
             ranked_list[query] = self.get_ranked_list(query)
         return ranked_list
 
@@ -110,7 +110,7 @@ class BM25:
 
     def bm_25_list(self, query_list):
         ranked_list = {}
-        for query in query_list.values():
+        for query in query_list:
             ranked_list[query] = self.get_ranked_list(query)
         return ranked_list
 

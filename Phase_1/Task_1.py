@@ -7,6 +7,8 @@ from Phase_1 import RetrievalModel
 
 inverted_index = pickle.load(open("inverted_index.p", "rb"))
 document_tokens = pickle.load(open("document_tokens.p", "rb"))
+query_dict = pickle.load(open("query_dict.p", "rb"))
+
 
 N = len(inverted_index)
 
@@ -16,10 +18,7 @@ dict = {}
 
 
 def get_query_list():
-    dict = {1 : "What articles exist which deal with TSS (Time Sharing System), an operating system for IBM computers?",
-            2 : "I am interested in articles written either by Prieve or Udo Pooch Prieve, B.Pooch, U.",
-            3 : "Intermediate languages used in construction of multi-targeted compilers; TCOLL"}
-    return dict
+    return query_dict.values()
 
 
 def retrieve_relevant_documents():

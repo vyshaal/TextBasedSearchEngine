@@ -1,3 +1,5 @@
 http://nlp.stanford.edu/IR-book/pdf/06vect.pdf
 http://bendemott.blogspot.com/2013/11/installing-pylucene-4-451.html
 http://lucene.apache.org/pylucene/
+http://people.cs.georgetown.edu/~nazli/classes/ir-Slides/QueryExpansion-RF-13.pdf
+https://github.com/rohanag/ADB-relevance-feedback-rocchio
