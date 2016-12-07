@@ -1,0 +1,707 @@
+Query : portabl oper system Rank : 1 File : cacm_stem.query.txt score : 1.8577926
+Query : portabl oper system Rank : 2 File : cacm_stem.txt score : 0.35155275
+Query : portabl oper system Rank : 3 File : CACM-0190.html score : 0.06920398
+Query : portabl oper system Rank : 4 File : CACM-1304.html score : 0.059932403
+Query : portabl oper system Rank : 5 File : CACM-2984.html score : 0.059330057
+Query : portabl oper system Rank : 6 File : CACM-2087.html score : 0.058721524
+Query : portabl oper system Rank : 7 File : CACM-0197.html score : 0.055363186
+Query : portabl oper system Rank : 8 File : CACM-0294.html score : 0.055363186
+Query : portabl oper system Rank : 9 File : CACM-0391.html score : 0.055363186
+Query : portabl oper system Rank : 10 File : CACM-0398.html score : 0.055363186
+Query : portabl oper system Rank : 11 File : CACM-0798.html score : 0.055363186
+Query : portabl oper system Rank : 12 File : CACM-2747.html score : 0.055363186
+Query : portabl oper system Rank : 13 File : CACM-1749.html score : 0.054928955
+Query : portabl oper system Rank : 14 File : CACM-2629.html score : 0.054928955
+Query : portabl oper system Rank : 15 File : CACM-2955.html score : 0.054928955
+Query : portabl oper system Rank : 16 File : CACM-1657.html score : 0.054160684
+Query : portabl oper system Rank : 17 File : CACM-2371.html score : 0.054160684
+Query : portabl oper system Rank : 18 File : CACM-1544.html score : 0.050854336
+Query : portabl oper system Rank : 19 File : CACM-2560.html score : 0.050854336
+Query : portabl oper system Rank : 20 File : CACM-3012.html score : 0.050854336
+Query : portabl oper system Rank : 21 File : CACM-1719.html score : 0.048934605
+Query : portabl oper system Rank : 22 File : CACM-2319.html score : 0.048934605
+Query : portabl oper system Rank : 23 File : CACM-2379.html score : 0.048934605
+Query : portabl oper system Rank : 24 File : CACM-2642.html score : 0.048934605
+Query : portabl oper system Rank : 25 File : CACM-0060.html score : 0.04844279
+Query : portabl oper system Rank : 26 File : CACM-0098.html score : 0.04844279
+Query : portabl oper system Rank : 27 File : CACM-0275.html score : 0.04844279
+Query : portabl oper system Rank : 28 File : CACM-0277.html score : 0.04844279
+Query : portabl oper system Rank : 29 File : CACM-0334.html score : 0.04844279
+Query : portabl oper system Rank : 30 File : CACM-0438.html score : 0.04844279
+Query : portabl oper system Rank : 31 File : CACM-0586.html score : 0.04844279
+Query : portabl oper system Rank : 32 File : CACM-0594.html score : 0.04844279
+Query : portabl oper system Rank : 33 File : CACM-0656.html score : 0.04844279
+Query : portabl oper system Rank : 34 File : CACM-1070.html score : 0.04844279
+Query : portabl oper system Rank : 35 File : CACM-1617.html score : 0.04844279
+Query : portabl oper system Rank : 36 File : CACM-1755.html score : 0.04844279
+Query : portabl oper system Rank : 37 File : CACM-2070.html score : 0.04844279
+Query : portabl oper system Rank : 38 File : CACM-2311.html score : 0.04844279
+Query : portabl oper system Rank : 39 File : CACM-2690.html score : 0.04844279
+Query : portabl oper system Rank : 40 File : CACM-2796.html score : 0.04844279
+Query : portabl oper system Rank : 41 File : CACM-3089.html score : 0.04844279
+Query : portabl oper system Rank : 42 File : CACM-1440.html score : 0.047945924
+Query : portabl oper system Rank : 43 File : CACM-1591.html score : 0.047945924
+Query : portabl oper system Rank : 44 File : CACM-2435.html score : 0.047945924
+Query : portabl oper system Rank : 45 File : CACM-1173.html score : 0.046423446
+Query : portabl oper system Rank : 46 File : CACM-1518.html score : 0.046423446
+Query : portabl oper system Rank : 47 File : CACM-1523.html score : 0.046423446
+Query : portabl oper system Rank : 48 File : CACM-1571.html score : 0.046423446
+Query : portabl oper system Rank : 49 File : CACM-1937.html score : 0.046423446
+Query : portabl oper system Rank : 50 File : CACM-1938.html score : 0.046423446
+Query : portabl oper system Rank : 51 File : CACM-2681.html score : 0.046423446
+Query : portabl oper system Rank : 52 File : CACM-1033.html score : 0.04577413
+Query : portabl oper system Rank : 53 File : CACM-1885.html score : 0.04577413
+Query : portabl oper system Rank : 54 File : CACM-2740.html score : 0.04577413
+Query : portabl oper system Rank : 55 File : CACM-2948.html score : 0.04577413
+Query : portabl oper system Rank : 56 File : CACM-1519.html score : 0.042378612
+Query : portabl oper system Rank : 57 File : CACM-1853.html score : 0.042378612
+Query : portabl oper system Rank : 58 File : CACM-2380.html score : 0.042378612
+Query : portabl oper system Rank : 59 File : CACM-2541.html score : 0.042378612
+Query : portabl oper system Rank : 60 File : CACM-0252.html score : 0.04195268
+Query : portabl oper system Rank : 61 File : CACM-0617.html score : 0.04195268
+Query : portabl oper system Rank : 62 File : CACM-1682.html score : 0.04195268
+Query : portabl oper system Rank : 63 File : CACM-2318.html score : 0.04195268
+Query : portabl oper system Rank : 64 File : CACM-2845.html score : 0.04195268
+Query : portabl oper system Rank : 65 File : CACM-3180.html score : 0.04195268
+Query : portabl oper system Rank : 66 File : CACM-0202.html score : 0.04152239
+Query : portabl oper system Rank : 67 File : CACM-0271.html score : 0.04152239
+Query : portabl oper system Rank : 68 File : CACM-0439.html score : 0.04152239
+Query : portabl oper system Rank : 69 File : CACM-1034.html score : 0.04152239
+Query : portabl oper system Rank : 70 File : CACM-1195.html score : 0.04152239
+Query : portabl oper system Rank : 71 File : CACM-1482.html score : 0.04152239
+Query : portabl oper system Rank : 72 File : CACM-1505.html score : 0.04152239
+Query : portabl oper system Rank : 73 File : CACM-1533.html score : 0.04152239
+Query : portabl oper system Rank : 74 File : CACM-1680.html score : 0.04152239
+Query : portabl oper system Rank : 75 File : CACM-1880.html score : 0.04152239
+Query : portabl oper system Rank : 76 File : CACM-1960.html score : 0.04152239
+Query : portabl oper system Rank : 77 File : CACM-2221.html score : 0.04152239
+Query : portabl oper system Rank : 78 File : CACM-2405.html score : 0.04152239
+Query : portabl oper system Rank : 79 File : CACM-2439.html score : 0.04152239
+Query : portabl oper system Rank : 80 File : CACM-2542.html score : 0.04152239
+Query : portabl oper system Rank : 81 File : CACM-2689.html score : 0.04152239
+Query : portabl oper system Rank : 82 File : CACM-2759.html score : 0.04152239
+Query : portabl oper system Rank : 83 File : CACM-2853.html score : 0.04152239
+Query : portabl oper system Rank : 84 File : CACM-2894.html score : 0.04152239
+Query : portabl oper system Rank : 85 File : CACM-2917.html score : 0.04152239
+Query : portabl oper system Rank : 86 File : CACM-2965.html score : 0.04152239
+Query : portabl oper system Rank : 87 File : CACM-2992.html score : 0.04152239
+Query : portabl oper system Rank : 88 File : CACM-3023.html score : 0.04152239
+Query : portabl oper system Rank : 89 File : CACM-3137.html score : 0.04152239
+Query : portabl oper system Rank : 90 File : CACM-3168.html score : 0.04152239
+Query : portabl oper system Rank : 91 File : CACM-0414.html score : 0.039147682
+Query : portabl oper system Rank : 92 File : CACM-1163.html score : 0.039147682
+Query : portabl oper system Rank : 93 File : CACM-1168.html score : 0.039147682
+Query : portabl oper system Rank : 94 File : CACM-1428.html score : 0.039147682
+Query : portabl oper system Rank : 95 File : CACM-1712.html score : 0.039147682
+Query : portabl oper system Rank : 96 File : CACM-1827.html score : 0.039147682
+Query : portabl oper system Rank : 97 File : CACM-2126.html score : 0.039147682
+Query : portabl oper system Rank : 98 File : CACM-2188.html score : 0.039147682
+Query : portabl oper system Rank : 99 File : CACM-2768.html score : 0.039147682
+Query : portabl oper system Rank : 100 File : CACM-3087.html score : 0.039147682
+================================================================ 
+Query : code optim for space effici Rank : 1 File : cacm_stem.query.txt score : 2.0306206
+Query : code optim for space effici Rank : 2 File : cacm_stem.txt score : 0.4448089
+Query : code optim for space effici Rank : 3 File : CACM-2748.html score : 0.37710115
+Query : code optim for space effici Rank : 4 File : CACM-2491.html score : 0.26975572
+Query : code optim for space effici Rank : 5 File : CACM-3171.html score : 0.24803306
+Query : code optim for space effici Rank : 6 File : CACM-1655.html score : 0.2203338
+Query : code optim for space effici Rank : 7 File : CACM-3005.html score : 0.18709649
+Query : code optim for space effici Rank : 8 File : CACM-2559.html score : 0.184197
+Query : code optim for space effici Rank : 9 File : CACM-2495.html score : 0.1739893
+Query : code optim for space effici Rank : 10 File : CACM-1795.html score : 0.17371689
+Query : code optim for space effici Rank : 11 File : CACM-0230.html score : 0.17068325
+Query : code optim for space effici Rank : 12 File : CACM-0797.html score : 0.17068325
+Query : code optim for space effici Rank : 13 File : CACM-1064.html score : 0.17068325
+Query : code optim for space effici Rank : 14 File : CACM-1289.html score : 0.17068325
+Query : code optim for space effici Rank : 15 File : CACM-0066.html score : 0.15788789
+Query : code optim for space effici Rank : 16 File : CACM-1757.html score : 0.15086411
+Query : code optim for space effici Rank : 17 File : CACM-1542.html score : 0.15044564
+Query : code optim for space effici Rank : 18 File : CACM-1275.html score : 0.14934786
+Query : code optim for space effici Rank : 19 File : CACM-1414.html score : 0.14934786
+Query : code optim for space effici Rank : 20 File : CACM-1670.html score : 0.14476408
+Query : code optim for space effici Rank : 21 File : CACM-1992.html score : 0.14476408
+Query : code optim for space effici Rank : 22 File : CACM-2745.html score : 0.14191686
+Query : code optim for space effici Rank : 23 File : CACM-2897.html score : 0.13218881
+Query : code optim for space effici Rank : 24 File : CACM-2530.html score : 0.13037272
+Query : code optim for space effici Rank : 25 File : CACM-1065.html score : 0.12801245
+Query : code optim for space effici Rank : 26 File : CACM-2586.html score : 0.12801245
+Query : code optim for space effici Rank : 27 File : CACM-3129.html score : 0.1280051
+Query : code optim for space effici Rank : 28 File : CACM-0048.html score : 0.12651192
+Query : code optim for space effici Rank : 29 File : CACM-1362.html score : 0.12651192
+Query : code optim for space effici Rank : 30 File : CACM-2711.html score : 0.12543796
+Query : code optim for space effici Rank : 31 File : CACM-2078.html score : 0.12519668
+Query : code optim for space effici Rank : 32 File : CACM-1235.html score : 0.120356515
+Query : code optim for space effici Rank : 33 File : CACM-1369.html score : 0.11803656
+Query : code optim for space effici Rank : 34 File : CACM-1204.html score : 0.11277707
+Query : code optim for space effici Rank : 35 File : CACM-0093.html score : 0.10667703
+Query : code optim for space effici Rank : 36 File : CACM-2389.html score : 0.10643764
+Query : code optim for space effici Rank : 37 File : CACM-2863.html score : 0.10643764
+Query : code optim for space effici Rank : 38 File : CACM-1652.html score : 0.10320171
+Query : code optim for space effici Rank : 39 File : CACM-1523.html score : 0.09778043
+Query : code optim for space effici Rank : 40 File : CACM-2230.html score : 0.09736349
+Query : code optim for space effici Rank : 41 File : CACM-1195.html score : 0.094995864
+Query : code optim for space effici Rank : 42 File : CACM-2680.html score : 0.09408841
+Query : code optim for space effici Rank : 43 File : CACM-1331.html score : 0.09332689
+Query : code optim for space effici Rank : 44 File : CACM-2498.html score : 0.092187434
+Query : code optim for space effici Rank : 45 File : CACM-0794.html score : 0.09179517
+Query : code optim for space effici Rank : 46 File : CACM-2537.html score : 0.09174805
+Query : code optim for space effici Rank : 47 File : CACM-0124.html score : 0.09022166
+Query : code optim for space effici Rank : 48 File : CACM-1551.html score : 0.09022166
+Query : code optim for space effici Rank : 49 File : CACM-2816.html score : 0.08869804
+Query : code optim for space effici Rank : 50 File : CACM-2249.html score : 0.08852741
+Query : code optim for space effici Rank : 51 File : CACM-3080.html score : 0.08699465
+Query : code optim for space effici Rank : 52 File : CACM-1786.html score : 0.086858444
+Query : code optim for space effici Rank : 53 File : CACM-3175.html score : 0.086858444
+Query : code optim for space effici Rank : 54 File : CACM-1066.html score : 0.085341625
+Query : code optim for space effici Rank : 55 File : CACM-1345.html score : 0.085341625
+Query : code optim for space effici Rank : 56 File : CACM-1071.html score : 0.08359728
+Query : code optim for space effici Rank : 57 File : CACM-2262.html score : 0.08359728
+Query : code optim for space effici Rank : 58 File : CACM-0123.html score : 0.08222045
+Query : code optim for space effici Rank : 59 File : CACM-1694.html score : 0.080320776
+Query : code optim for space effici Rank : 60 File : CACM-1756.html score : 0.07963126
+Query : code optim for space effici Rank : 61 File : CACM-3134.html score : 0.07949696
+Query : code optim for space effici Rank : 62 File : CACM-2253.html score : 0.077772416
+Query : code optim for space effici Rank : 63 File : CACM-3110.html score : 0.077772416
+Query : code optim for space effici Rank : 64 File : CACM-1552.html score : 0.07682287
+Query : code optim for space effici Rank : 65 File : CACM-1259.html score : 0.07605076
+Query : code optim for space effici Rank : 66 File : CACM-3045.html score : 0.07605076
+Query : code optim for space effici Rank : 67 File : CACM-1651.html score : 0.07548643
+Query : code optim for space effici Rank : 68 File : CACM-1564.html score : 0.075432055
+Query : code optim for space effici Rank : 69 File : CACM-2423.html score : 0.075432055
+Query : code optim for space effici Rank : 70 File : CACM-2185.html score : 0.07467393
+Query : code optim for space effici Rank : 71 File : CACM-2770.html score : 0.07467393
+Query : code optim for space effici Rank : 72 File : CACM-2904.html score : 0.07467393
+Query : code optim for space effici Rank : 73 File : CACM-0867.html score : 0.07377285
+Query : code optim for space effici Rank : 74 File : CACM-2902.html score : 0.07377285
+Query : code optim for space effici Rank : 75 File : CACM-3074.html score : 0.07377285
+Query : code optim for space effici Rank : 76 File : CACM-0031.html score : 0.0735602
+Query : code optim for space effici Rank : 77 File : CACM-0195.html score : 0.0735602
+Query : code optim for space effici Rank : 78 File : CACM-2794.html score : 0.07339844
+Query : code optim for space effici Rank : 79 File : CACM-1886.html score : 0.07203573
+Query : code optim for space effici Rank : 80 File : CACM-2490.html score : 0.07165481
+Query : code optim for space effici Rank : 81 File : CACM-2359.html score : 0.07095843
+Query : code optim for space effici Rank : 82 File : CACM-2033.html score : 0.07089638
+Query : code optim for space effici Rank : 83 File : CACM-1770.html score : 0.07047468
+Query : code optim for space effici Rank : 84 File : CACM-1443.html score : 0.06884638
+Query : code optim for space effici Rank : 85 File : CACM-2855.html score : 0.06884638
+Query : code optim for space effici Rank : 86 File : CACM-3075.html score : 0.06884638
+Query : code optim for space effici Rank : 87 File : CACM-1088.html score : 0.06766625
+Query : code optim for space effici Rank : 88 File : CACM-1165.html score : 0.06766625
+Query : code optim for space effici Rank : 89 File : CACM-1922.html score : 0.06766625
+Query : code optim for space effici Rank : 90 File : CACM-2543.html score : 0.06766625
+Query : code optim for space effici Rank : 91 File : CACM-1290.html score : 0.065186955
+Query : code optim for space effici Rank : 92 File : CACM-1554.html score : 0.06518636
+Query : code optim for space effici Rank : 93 File : CACM-1884.html score : 0.06518636
+Query : code optim for space effici Rank : 94 File : CACM-2374.html score : 0.06518636
+Query : code optim for space effici Rank : 95 File : CACM-2766.html score : 0.06518636
+Query : code optim for space effici Rank : 96 File : CACM-2857.html score : 0.06518636
+Query : code optim for space effici Rank : 97 File : CACM-3113.html score : 0.06518636
+Query : code optim for space effici Rank : 98 File : CACM-3201.html score : 0.06518636
+Query : code optim for space effici Rank : 99 File : CACM-2533.html score : 0.06501865
+Query : code optim for space effici Rank : 100 File : CACM-2081.html score : 0.06499513
+================================================================ 
+Query : parallel algorithm Rank : 1 File : cacm_stem.query.txt score : 1.1352124
+Query : parallel algorithm Rank : 2 File : CACM-2714.html score : 1.0375792
+Query : parallel algorithm Rank : 3 File : CACM-2973.html score : 0.8920397
+Query : parallel algorithm Rank : 4 File : CACM-2266.html score : 0.8342073
+Query : parallel algorithm Rank : 5 File : CACM-3075.html score : 0.811571
+Query : parallel algorithm Rank : 6 File : CACM-3156.html score : 0.811571
+Query : parallel algorithm Rank : 7 File : CACM-2785.html score : 0.7820707
+Query : parallel algorithm Rank : 8 File : CACM-2401.html score : 0.6763091
+Query : parallel algorithm Rank : 9 File : CACM-0950.html score : 0.65172553
+Query : parallel algorithm Rank : 10 File : CACM-0141.html score : 0.54721314
+Query : parallel algorithm Rank : 11 File : CACM-0392.html score : 0.54721314
+Query : parallel algorithm Rank : 12 File : CACM-1302.html score : 0.54721314
+Query : parallel algorithm Rank : 13 File : CACM-2433.html score : 0.54302263
+Query : parallel algorithm Rank : 14 File : CACM-2195.html score : 0.5213804
+Query : parallel algorithm Rank : 15 File : CACM-3175.html score : 0.48162985
+Query : parallel algorithm Rank : 16 File : CACM-2182.html score : 0.4788115
+Query : parallel algorithm Rank : 17 File : CACM-2685.html score : 0.47390047
+Query : parallel algorithm Rank : 18 File : CACM-2060.html score : 0.45408496
+Query : parallel algorithm Rank : 19 File : CACM-2838.html score : 0.45408496
+Query : parallel algorithm Rank : 20 File : CACM-2896.html score : 0.4146629
+Query : parallel algorithm Rank : 21 File : CACM-1262.html score : 0.41040987
+Query : parallel algorithm Rank : 22 File : CACM-1367.html score : 0.41040987
+Query : parallel algorithm Rank : 23 File : CACM-1795.html score : 0.41040987
+Query : parallel algorithm Rank : 24 File : CACM-1828.html score : 0.41040987
+Query : parallel algorithm Rank : 25 File : CACM-2700.html score : 0.41040987
+Query : parallel algorithm Rank : 26 File : CACM-1613.html score : 0.4013582
+Query : parallel algorithm Rank : 27 File : CACM-1959.html score : 0.4013582
+Query : parallel algorithm Rank : 28 File : CACM-2515.html score : 0.4013582
+Query : parallel algorithm Rank : 29 File : CACM-1158.html score : 0.38693812
+Query : parallel algorithm Rank : 30 File : CACM-1601.html score : 0.3420082
+Query : parallel algorithm Rank : 31 File : CACM-2952.html score : 0.3420082
+Query : parallel algorithm Rank : 32 File : CACM-2557.html score : 0.33857086
+Query : parallel algorithm Rank : 33 File : CACM-2895.html score : 0.33857086
+Query : parallel algorithm Rank : 34 File : CACM-1811.html score : 0.33509827
+Query : parallel algorithm Rank : 35 File : CACM-2342.html score : 0.30590144
+Query : parallel algorithm Rank : 36 File : CACM-2851.html score : 0.30590144
+Query : parallel algorithm Rank : 37 File : CACM-1468.html score : 0.2961878
+Query : parallel algorithm Rank : 38 File : CACM-2865.html score : 0.2961878
+Query : parallel algorithm Rank : 39 File : CACM-3059.html score : 0.2961878
+Query : parallel algorithm Rank : 40 File : CACM-2080.html score : 0.2902036
+Query : parallel algorithm Rank : 41 File : CACM-3073.html score : 0.2902036
+Query : parallel algorithm Rank : 42 File : CACM-1569.html score : 0.27360657
+Query : parallel algorithm Rank : 43 File : CACM-3044.html score : 0.27360657
+Query : parallel algorithm Rank : 44 File : CACM-2570.html score : 0.24183632
+Query : parallel algorithm Rank : 45 File : CACM-2740.html score : 0.24183632
+Query : parallel algorithm Rank : 46 File : CACM-1008.html score : 0.23940575
+Query : parallel algorithm Rank : 47 File : CACM-1200.html score : 0.23940575
+Query : parallel algorithm Rank : 48 File : CACM-1380.html score : 0.23940575
+Query : parallel algorithm Rank : 49 File : CACM-2727.html score : 0.23940575
+Query : parallel algorithm Rank : 50 File : CACM-1747.html score : 0.23695023
+Query : parallel algorithm Rank : 51 File : CACM-1846.html score : 0.23695023
+Query : parallel algorithm Rank : 52 File : CACM-2175.html score : 0.23695023
+Query : parallel algorithm Rank : 53 File : CACM-1341.html score : 0.20520493
+Query : parallel algorithm Rank : 54 File : CACM-1471.html score : 0.20520493
+Query : parallel algorithm Rank : 55 File : CACM-1536.html score : 0.20520493
+Query : parallel algorithm Rank : 56 File : CACM-1554.html score : 0.20520493
+Query : parallel algorithm Rank : 57 File : CACM-1603.html score : 0.20520493
+Query : parallel algorithm Rank : 58 File : CACM-1957.html score : 0.20520493
+Query : parallel algorithm Rank : 59 File : CACM-1960.html score : 0.20520493
+Query : parallel algorithm Rank : 60 File : CACM-2376.html score : 0.20520493
+Query : parallel algorithm Rank : 61 File : CACM-2514.html score : 0.20520493
+Query : parallel algorithm Rank : 62 File : cacm_stem.txt score : 0.177427
+Query : parallel algorithm Rank : 63 File : CACM-0320.html score : 0.1710041
+Query : parallel algorithm Rank : 64 File : CACM-1325.html score : 0.1710041
+Query : parallel algorithm Rank : 65 File : CACM-2114.html score : 0.1710041
+Query : parallel algorithm Rank : 66 File : CACM-2723.html score : 0.1710041
+Query : parallel algorithm Rank : 67 File : CACM-2898.html score : 0.1710041
+Query : parallel algorithm Rank : 68 File : CACM-2967.html score : 0.1710041
+Query : parallel algorithm Rank : 69 File : CACM-2289.html score : 0.16928543
+Query : parallel algorithm Rank : 70 File : CACM-2430.html score : 0.14243995
+Query : parallel algorithm Rank : 71 File : CACM-1409.html score : 0.13680328
+Query : parallel algorithm Rank : 72 File : CACM-1854.html score : 0.13680328
+Query : parallel algorithm Rank : 73 File : CACM-1928.html score : 0.13680328
+Query : parallel algorithm Rank : 74 File : CACM-2497.html score : 0.13680328
+Query : parallel algorithm Rank : 75 File : CACM-0199.html score : 0.13429368
+Query : parallel algorithm Rank : 76 File : CACM-1990.html score : 0.13429368
+Query : parallel algorithm Rank : 77 File : CACM-2348.html score : 0.13429368
+Query : parallel algorithm Rank : 78 File : CACM-2509.html score : 0.13429368
+Query : parallel algorithm Rank : 79 File : CACM-1539.html score : 0.12335661
+Query : parallel algorithm Rank : 80 File : CACM-2692.html score : 0.119702876
+Query : parallel algorithm Rank : 81 File : CACM-0127.html score : 0.11869996
+Query : parallel algorithm Rank : 82 File : CACM-0227.html score : 0.11869996
+Query : parallel algorithm Rank : 83 File : CACM-0305.html score : 0.11869996
+Query : parallel algorithm Rank : 84 File : CACM-0306.html score : 0.11869996
+Query : parallel algorithm Rank : 85 File : CACM-0427.html score : 0.11869996
+Query : parallel algorithm Rank : 86 File : CACM-0473.html score : 0.11869996
+Query : parallel algorithm Rank : 87 File : CACM-0487.html score : 0.11869996
+Query : parallel algorithm Rank : 88 File : CACM-0565.html score : 0.11869996
+Query : parallel algorithm Rank : 89 File : CACM-0579.html score : 0.11869996
+Query : parallel algorithm Rank : 90 File : CACM-0663.html score : 0.11869996
+Query : parallel algorithm Rank : 91 File : CACM-0686.html score : 0.11869996
+Query : parallel algorithm Rank : 92 File : CACM-0709.html score : 0.11869996
+Query : parallel algorithm Rank : 93 File : CACM-0714.html score : 0.11869996
+Query : parallel algorithm Rank : 94 File : CACM-0716.html score : 0.11869996
+Query : parallel algorithm Rank : 95 File : CACM-0743.html score : 0.11869996
+Query : parallel algorithm Rank : 96 File : CACM-0774.html score : 0.11869996
+Query : parallel algorithm Rank : 97 File : CACM-0783.html score : 0.11869996
+Query : parallel algorithm Rank : 98 File : CACM-0790.html score : 0.11869996
+Query : parallel algorithm Rank : 99 File : CACM-0802.html score : 0.11869996
+Query : parallel algorithm Rank : 100 File : CACM-0817.html score : 0.11869996
+================================================================ 
+Query : distribut comput structur and algorithm Rank : 1 File : cacm_stem.query.txt score : 2.5206234
+Query : distribut comput structur and algorithm Rank : 2 File : cacm_stem.txt score : 0.80214727
+Query : distribut comput structur and algorithm Rank : 3 File : CACM-0371.html score : 0.055788785
+Query : distribut comput structur and algorithm Rank : 4 File : CACM-0168.html score : 0.05000925
+Query : distribut comput structur and algorithm Rank : 5 File : CACM-0442.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 6 File : CACM-0454.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 7 File : CACM-0641.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 8 File : CACM-0684.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 9 File : CACM-0775.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 10 File : CACM-0776.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 11 File : CACM-0786.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 12 File : CACM-0813.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 13 File : CACM-1038.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 14 File : CACM-1091.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 15 File : CACM-1319.html score : 0.04854539
+Query : distribut comput structur and algorithm Rank : 16 File : CACM-1954.html score : 0.045034137
+Query : distribut comput structur and algorithm Rank : 17 File : CACM-2028.html score : 0.045034137
+Query : distribut comput structur and algorithm Rank : 18 File : CACM-2043.html score : 0.045034137
+Query : distribut comput structur and algorithm Rank : 19 File : CACM-2335.html score : 0.045034137
+Query : distribut comput structur and algorithm Rank : 20 File : CACM-0133.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 21 File : CACM-0586.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 22 File : CACM-0780.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 23 File : CACM-0785.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 24 File : CACM-0977.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 25 File : CACM-1448.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 26 File : CACM-1520.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 27 File : CACM-1617.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 28 File : CACM-2161.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 29 File : CACM-2417.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 30 File : CACM-2589.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 31 File : CACM-2675.html score : 0.042477217
+Query : distribut comput structur and algorithm Rank : 32 File : CACM-1611.html score : 0.037629366
+Query : distribut comput structur and algorithm Rank : 33 File : CACM-1097.html score : 0.037528444
+Query : distribut comput structur and algorithm Rank : 34 File : CACM-1968.html score : 0.037528444
+Query : distribut comput structur and algorithm Rank : 35 File : CACM-2444.html score : 0.037528444
+Query : distribut comput structur and algorithm Rank : 36 File : CACM-2520.html score : 0.037528444
+Query : distribut comput structur and algorithm Rank : 37 File : CACM-2285.html score : 0.03678635
+Query : distribut comput structur and algorithm Rank : 38 File : CACM-0591.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 39 File : CACM-1285.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 40 File : CACM-1450.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 41 File : CACM-1577.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 42 File : CACM-1821.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 43 File : CACM-2014.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 44 File : CACM-2037.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 45 File : CACM-2038.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 46 File : CACM-2039.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 47 File : CACM-2044.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 48 File : CACM-2045.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 49 File : CACM-2270.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 50 File : CACM-2679.html score : 0.036409047
+Query : distribut comput structur and algorithm Rank : 51 File : CACM-1961.html score : 0.035788313
+Query : distribut comput structur and algorithm Rank : 52 File : CACM-1679.html score : 0.03577381
+Query : distribut comput structur and algorithm Rank : 53 File : CACM-2030.html score : 0.03577381
+Query : distribut comput structur and algorithm Rank : 54 File : CACM-3069.html score : 0.03577381
+Query : distribut comput structur and algorithm Rank : 55 File : CACM-1717.html score : 0.035361882
+Query : distribut comput structur and algorithm Rank : 56 File : CACM-1858.html score : 0.034434933
+Query : distribut comput structur and algorithm Rank : 57 File : CACM-0124.html score : 0.034326773
+Query : distribut comput structur and algorithm Rank : 58 File : CACM-2745.html score : 0.034326773
+Query : distribut comput structur and algorithm Rank : 59 File : CACM-2954.html score : 0.034320887
+Query : distribut comput structur and algorithm Rank : 60 File : CACM-3037.html score : 0.034320887
+Query : distribut comput structur and algorithm Rank : 61 File : CACM-2657.html score : 0.03424072
+Query : distribut comput structur and algorithm Rank : 62 File : CACM-2031.html score : 0.034203388
+Query : distribut comput structur and algorithm Rank : 63 File : CACM-3154.html score : 0.033922125
+Query : distribut comput structur and algorithm Rank : 64 File : CACM-1694.html score : 0.033896584
+Query : distribut comput structur and algorithm Rank : 65 File : CACM-2185.html score : 0.033896584
+Query : distribut comput structur and algorithm Rank : 66 File : CACM-2490.html score : 0.03361932
+Query : distribut comput structur and algorithm Rank : 67 File : CACM-2209.html score : 0.033385247
+Query : distribut comput structur and algorithm Rank : 68 File : CACM-2110.html score : 0.032389037
+Query : distribut comput structur and algorithm Rank : 69 File : CACM-2714.html score : 0.032389037
+Query : distribut comput structur and algorithm Rank : 70 File : CACM-1696.html score : 0.032149892
+Query : distribut comput structur and algorithm Rank : 71 File : CACM-1072.html score : 0.03184394
+Query : distribut comput structur and algorithm Rank : 72 File : CACM-2134.html score : 0.03184394
+Query : distribut comput structur and algorithm Rank : 73 File : CACM-2855.html score : 0.03184394
+Query : distribut comput structur and algorithm Rank : 74 File : CACM-1504.html score : 0.030648906
+Query : distribut comput structur and algorithm Rank : 75 File : CACM-2004.html score : 0.030648906
+Query : distribut comput structur and algorithm Rank : 76 File : CACM-2146.html score : 0.030648906
+Query : distribut comput structur and algorithm Rank : 77 File : CACM-0767.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 78 File : CACM-0768.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 79 File : CACM-1304.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 80 File : CACM-1662.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 81 File : CACM-1689.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 82 File : CACM-1848.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 83 File : CACM-1866.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 84 File : CACM-1940.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 85 File : CACM-1955.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 86 File : CACM-2027.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 87 File : CACM-2099.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 88 File : CACM-2412.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 89 File : CACM-2426.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 90 File : CACM-2601.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 91 File : CACM-2615.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 92 File : CACM-2693.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 93 File : CACM-2695.html score : 0.030340869
+Query : distribut comput structur and algorithm Rank : 94 File : CACM-1973.html score : 0.030330578
+Query : distribut comput structur and algorithm Rank : 95 File : CACM-1294.html score : 0.030310184
+Query : distribut comput structur and algorithm Rank : 96 File : CACM-2630.html score : 0.030130565
+Query : distribut comput structur and algorithm Rank : 97 File : CACM-1395.html score : 0.030035928
+Query : distribut comput structur and algorithm Rank : 98 File : CACM-1495.html score : 0.030035928
+Query : distribut comput structur and algorithm Rank : 99 File : CACM-2780.html score : 0.030035928
+Query : distribut comput structur and algorithm Rank : 100 File : CACM-2994.html score : 0.030035928
+================================================================ 
+Query : appli stochast process Rank : 1 File : cacm_stem.query.txt score : 1.8762676
+Query : appli stochast process Rank : 2 File : cacm_stem.txt score : 0.23648173
+Query : appli stochast process Rank : 3 File : CACM-0198.html score : 0.11804598
+Query : appli stochast process Rank : 4 File : CACM-2080.html score : 0.10843216
+Query : appli stochast process Rank : 5 File : CACM-0748.html score : 0.10329023
+Query : appli stochast process Rank : 6 File : CACM-1656.html score : 0.10329023
+Query : appli stochast process Rank : 7 File : CACM-0174.html score : 0.08853449
+Query : appli stochast process Rank : 8 File : CACM-0494.html score : 0.08853449
+Query : appli stochast process Rank : 9 File : CACM-2309.html score : 0.08347111
+Query : appli stochast process Rank : 10 File : CACM-1439.html score : 0.076673105
+Query : appli stochast process Rank : 11 File : CACM-2912.html score : 0.06389426
+Query : appli stochast process Rank : 12 File : CACM-0861.html score : 0.06260334
+Query : appli stochast process Rank : 13 File : CACM-1587.html score : 0.06260334
+Query : appli stochast process Rank : 14 File : CACM-1960.html score : 0.06260334
+Query : appli stochast process Rank : 15 File : CACM-2376.html score : 0.06260334
+Query : appli stochast process Rank : 16 File : CACM-3104.html score : 0.06260334
+Query : appli stochast process Rank : 17 File : CACM-1047.html score : 0.05902299
+Query : appli stochast process Rank : 18 File : CACM-1148.html score : 0.05902299
+Query : appli stochast process Rank : 19 File : CACM-1498.html score : 0.05902299
+Query : appli stochast process Rank : 20 File : CACM-2219.html score : 0.05902299
+Query : appli stochast process Rank : 21 File : CACM-1410.html score : 0.052169442
+Query : appli stochast process Rank : 22 File : CACM-1748.html score : 0.052169442
+Query : appli stochast process Rank : 23 File : CACM-1751.html score : 0.052169442
+Query : appli stochast process Rank : 24 File : CACM-2378.html score : 0.052169442
+Query : appli stochast process Rank : 25 File : CACM-2401.html score : 0.052169442
+Query : appli stochast process Rank : 26 File : CACM-2928.html score : 0.052169442
+Query : appli stochast process Rank : 27 File : CACM-3020.html score : 0.052169442
+Query : appli stochast process Rank : 28 File : CACM-3103.html score : 0.052169442
+Query : appli stochast process Rank : 29 File : CACM-3120.html score : 0.052169442
+Query : appli stochast process Rank : 30 File : CACM-0630.html score : 0.051645115
+Query : appli stochast process Rank : 31 File : CACM-1013.html score : 0.051645115
+Query : appli stochast process Rank : 32 File : CACM-1111.html score : 0.051645115
+Query : appli stochast process Rank : 33 File : CACM-1186.html score : 0.051645115
+Query : appli stochast process Rank : 34 File : CACM-1281.html score : 0.051645115
+Query : appli stochast process Rank : 35 File : CACM-1475.html score : 0.051645115
+Query : appli stochast process Rank : 36 File : CACM-1541.html score : 0.051645115
+Query : appli stochast process Rank : 37 File : CACM-1565.html score : 0.051645115
+Query : appli stochast process Rank : 38 File : CACM-2311.html score : 0.051645115
+Query : appli stochast process Rank : 39 File : CACM-2353.html score : 0.051645115
+Query : appli stochast process Rank : 40 File : CACM-3192.html score : 0.051645115
+Query : appli stochast process Rank : 41 File : CACM-2535.html score : 0.051115405
+Query : appli stochast process Rank : 42 File : CACM-0103.html score : 0.044267245
+Query : appli stochast process Rank : 43 File : CACM-0894.html score : 0.044267245
+Query : appli stochast process Rank : 44 File : CACM-1180.html score : 0.044267245
+Query : appli stochast process Rank : 45 File : CACM-1257.html score : 0.044267245
+Query : appli stochast process Rank : 46 File : CACM-1505.html score : 0.044267245
+Query : appli stochast process Rank : 47 File : CACM-1524.html score : 0.044267245
+Query : appli stochast process Rank : 48 File : CACM-1686.html score : 0.044267245
+Query : appli stochast process Rank : 49 File : CACM-1828.html score : 0.044267245
+Query : appli stochast process Rank : 50 File : CACM-2204.html score : 0.044267245
+Query : appli stochast process Rank : 51 File : CACM-2227.html score : 0.044267245
+Query : appli stochast process Rank : 52 File : CACM-2233.html score : 0.044267245
+Query : appli stochast process Rank : 53 File : CACM-2370.html score : 0.044267245
+Query : appli stochast process Rank : 54 File : CACM-2374.html score : 0.044267245
+Query : appli stochast process Rank : 55 File : CACM-2556.html score : 0.044267245
+Query : appli stochast process Rank : 56 File : CACM-2629.html score : 0.044267245
+Query : appli stochast process Rank : 57 File : CACM-2681.html score : 0.044267245
+Query : appli stochast process Rank : 58 File : CACM-2700.html score : 0.044267245
+Query : appli stochast process Rank : 59 File : CACM-2799.html score : 0.044267245
+Query : appli stochast process Rank : 60 File : CACM-2938.html score : 0.044267245
+Query : appli stochast process Rank : 61 File : CACM-3043.html score : 0.044267245
+Query : appli stochast process Rank : 62 File : CACM-3095.html score : 0.044267245
+Query : appli stochast process Rank : 63 File : CACM-3140.html score : 0.044267245
+Query : appli stochast process Rank : 64 File : CACM-0278.html score : 0.041735556
+Query : appli stochast process Rank : 65 File : CACM-1741.html score : 0.041735556
+Query : appli stochast process Rank : 66 File : CACM-2060.html score : 0.041735556
+Query : appli stochast process Rank : 67 File : CACM-2195.html score : 0.041735556
+Query : appli stochast process Rank : 68 File : CACM-2878.html score : 0.041735556
+Query : appli stochast process Rank : 69 File : CACM-1856.html score : 0.038336553
+Query : appli stochast process Rank : 70 File : CACM-0078.html score : 0.036889367
+Query : appli stochast process Rank : 71 File : CACM-0435.html score : 0.036889367
+Query : appli stochast process Rank : 72 File : CACM-0527.html score : 0.036889367
+Query : appli stochast process Rank : 73 File : CACM-0533.html score : 0.036889367
+Query : appli stochast process Rank : 74 File : CACM-0637.html score : 0.036889367
+Query : appli stochast process Rank : 75 File : CACM-0950.html score : 0.036889367
+Query : appli stochast process Rank : 76 File : CACM-1029.html score : 0.036889367
+Query : appli stochast process Rank : 77 File : CACM-1051.html score : 0.036889367
+Query : appli stochast process Rank : 78 File : CACM-1159.html score : 0.036889367
+Query : appli stochast process Rank : 79 File : CACM-1172.html score : 0.036889367
+Query : appli stochast process Rank : 80 File : CACM-1236.html score : 0.036889367
+Query : appli stochast process Rank : 81 File : CACM-1325.html score : 0.036889367
+Query : appli stochast process Rank : 82 File : CACM-1346.html score : 0.036889367
+Query : appli stochast process Rank : 83 File : CACM-1398.html score : 0.036889367
+Query : appli stochast process Rank : 84 File : CACM-1637.html score : 0.036889367
+Query : appli stochast process Rank : 85 File : CACM-1698.html score : 0.036889367
+Query : appli stochast process Rank : 86 File : CACM-1951.html score : 0.036889367
+Query : appli stochast process Rank : 87 File : CACM-1959.html score : 0.036889367
+Query : appli stochast process Rank : 88 File : CACM-2105.html score : 0.036889367
+Query : appli stochast process Rank : 89 File : CACM-2254.html score : 0.036889367
+Query : appli stochast process Rank : 90 File : CACM-2273.html score : 0.036889367
+Query : appli stochast process Rank : 91 File : CACM-2307.html score : 0.036889367
+Query : appli stochast process Rank : 92 File : CACM-2308.html score : 0.036889367
+Query : appli stochast process Rank : 93 File : CACM-2320.html score : 0.036889367
+Query : appli stochast process Rank : 94 File : CACM-2379.html score : 0.036889367
+Query : appli stochast process Rank : 95 File : CACM-2380.html score : 0.036889367
+Query : appli stochast process Rank : 96 File : CACM-2452.html score : 0.036889367
+Query : appli stochast process Rank : 97 File : CACM-2480.html score : 0.036889367
+Query : appli stochast process Rank : 98 File : CACM-2523.html score : 0.036889367
+Query : appli stochast process Rank : 99 File : CACM-2687.html score : 0.036889367
+Query : appli stochast process Rank : 100 File : CACM-2746.html score : 0.036889367
+================================================================ 
+Query : perform evalu and model of comput system Rank : 1 File : cacm_stem.query.txt score : 2.487259
+Query : perform evalu and model of comput system Rank : 2 File : cacm_stem.txt score : 0.77282923
+Query : perform evalu and model of comput system Rank : 3 File : CACM-2372.html score : 0.31780422
+Query : perform evalu and model of comput system Rank : 4 File : CACM-1698.html score : 0.30640852
+Query : perform evalu and model of comput system Rank : 5 File : CACM-2561.html score : 0.27367795
+Query : perform evalu and model of comput system Rank : 6 File : CACM-1680.html score : 0.27364296
+Query : perform evalu and model of comput system Rank : 7 File : CACM-1533.html score : 0.25063908
+Query : perform evalu and model of comput system Rank : 8 File : CACM-1518.html score : 0.24812597
+Query : perform evalu and model of comput system Rank : 9 File : CACM-3089.html score : 0.21963999
+Query : perform evalu and model of comput system Rank : 10 File : CACM-3070.html score : 0.21321
+Query : perform evalu and model of comput system Rank : 11 File : CACM-2681.html score : 0.21128172
+Query : perform evalu and model of comput system Rank : 12 File : CACM-2859.html score : 0.21123047
+Query : perform evalu and model of comput system Rank : 13 File : CACM-3144.html score : 0.20802554
+Query : perform evalu and model of comput system Rank : 14 File : CACM-2560.html score : 0.20480259
+Query : perform evalu and model of comput system Rank : 15 File : CACM-2188.html score : 0.20415848
+Query : perform evalu and model of comput system Rank : 16 File : CACM-3147.html score : 0.1972401
+Query : perform evalu and model of comput system Rank : 17 File : CACM-3002.html score : 0.19425891
+Query : perform evalu and model of comput system Rank : 18 File : CACM-2882.html score : 0.19387038
+Query : perform evalu and model of comput system Rank : 19 File : CACM-1308.html score : 0.19363208
+Query : perform evalu and model of comput system Rank : 20 File : CACM-3137.html score : 0.18817407
+Query : perform evalu and model of comput system Rank : 21 File : CACM-2218.html score : 0.18575864
+Query : perform evalu and model of comput system Rank : 22 File : CACM-2105.html score : 0.18429503
+Query : perform evalu and model of comput system Rank : 23 File : CACM-1591.html score : 0.18339981
+Query : perform evalu and model of comput system Rank : 24 File : CACM-2452.html score : 0.18081099
+Query : perform evalu and model of comput system Rank : 25 File : CACM-1334.html score : 0.18013449
+Query : perform evalu and model of comput system Rank : 26 File : CACM-1542.html score : 0.17977287
+Query : perform evalu and model of comput system Rank : 27 File : CACM-3072.html score : 0.17889182
+Query : perform evalu and model of comput system Rank : 28 File : CACM-2003.html score : 0.17888425
+Query : perform evalu and model of comput system Rank : 29 File : CACM-2318.html score : 0.17839848
+Query : perform evalu and model of comput system Rank : 30 File : CACM-3048.html score : 0.17642698
+Query : perform evalu and model of comput system Rank : 31 File : CACM-1751.html score : 0.17325653
+Query : perform evalu and model of comput system Rank : 32 File : CACM-2277.html score : 0.17144343
+Query : perform evalu and model of comput system Rank : 33 File : CACM-2319.html score : 0.16720913
+Query : perform evalu and model of comput system Rank : 34 File : CACM-2668.html score : 0.16489716
+Query : perform evalu and model of comput system Rank : 35 File : CACM-2870.html score : 0.16247891
+Query : perform evalu and model of comput system Rank : 36 File : CACM-2798.html score : 0.16212928
+Query : perform evalu and model of comput system Rank : 37 File : CACM-1885.html score : 0.1612445
+Query : perform evalu and model of comput system Rank : 38 File : CACM-2894.html score : 0.15987423
+Query : perform evalu and model of comput system Rank : 39 File : CACM-2522.html score : 0.1595999
+Query : perform evalu and model of comput system Rank : 40 File : CACM-1526.html score : 0.1579325
+Query : perform evalu and model of comput system Rank : 41 File : CACM-0617.html score : 0.15706116
+Query : perform evalu and model of comput system Rank : 42 File : CACM-2715.html score : 0.15692823
+Query : perform evalu and model of comput system Rank : 43 File : CACM-1161.html score : 0.15538713
+Query : perform evalu and model of comput system Rank : 44 File : CACM-1365.html score : 0.15521127
+Query : perform evalu and model of comput system Rank : 45 File : CACM-1264.html score : 0.15443507
+Query : perform evalu and model of comput system Rank : 46 File : CACM-3025.html score : 0.1492487
+Query : perform evalu and model of comput system Rank : 47 File : CACM-1938.html score : 0.14796494
+Query : perform evalu and model of comput system Rank : 48 File : CACM-2669.html score : 0.14790717
+Query : perform evalu and model of comput system Rank : 49 File : CACM-2840.html score : 0.1471006
+Query : perform evalu and model of comput system Rank : 50 File : CACM-2928.html score : 0.1427423
+Query : perform evalu and model of comput system Rank : 51 File : CACM-2950.html score : 0.14226943
+Query : perform evalu and model of comput system Rank : 52 File : CACM-1827.html score : 0.14148985
+Query : perform evalu and model of comput system Rank : 53 File : CACM-1248.html score : 0.14111345
+Query : perform evalu and model of comput system Rank : 54 File : CACM-2535.html score : 0.13873596
+Query : perform evalu and model of comput system Rank : 55 File : CACM-2344.html score : 0.1386603
+Query : perform evalu and model of comput system Rank : 56 File : CACM-1261.html score : 0.13801394
+Query : perform evalu and model of comput system Rank : 57 File : CACM-1486.html score : 0.13748133
+Query : perform evalu and model of comput system Rank : 58 File : CACM-2741.html score : 0.13732675
+Query : perform evalu and model of comput system Rank : 59 File : CACM-3068.html score : 0.13672289
+Query : perform evalu and model of comput system Rank : 60 File : CACM-1767.html score : 0.1364125
+Query : perform evalu and model of comput system Rank : 61 File : CACM-2571.html score : 0.13556238
+Query : perform evalu and model of comput system Rank : 62 File : CACM-2914.html score : 0.13266794
+Query : perform evalu and model of comput system Rank : 63 File : CACM-2245.html score : 0.13215877
+Query : perform evalu and model of comput system Rank : 64 File : CACM-1572.html score : 0.1320283
+Query : perform evalu and model of comput system Rank : 65 File : CACM-1892.html score : 0.1320283
+Query : perform evalu and model of comput system Rank : 66 File : CACM-2402.html score : 0.1320283
+Query : perform evalu and model of comput system Rank : 67 File : CACM-2753.html score : 0.13191874
+Query : perform evalu and model of comput system Rank : 68 File : CACM-1032.html score : 0.13184439
+Query : perform evalu and model of comput system Rank : 69 File : CACM-2749.html score : 0.13161042
+Query : perform evalu and model of comput system Rank : 70 File : CACM-2297.html score : 0.13077065
+Query : perform evalu and model of comput system Rank : 71 File : CACM-2202.html score : 0.13044198
+Query : perform evalu and model of comput system Rank : 72 File : CACM-2988.html score : 0.12750646
+Query : perform evalu and model of comput system Rank : 73 File : CACM-0585.html score : 0.12621196
+Query : perform evalu and model of comput system Rank : 74 File : CACM-1740.html score : 0.1260323
+Query : perform evalu and model of comput system Rank : 75 File : CACM-2862.html score : 0.12591137
+Query : perform evalu and model of comput system Rank : 76 File : CACM-1503.html score : 0.12564288
+Query : perform evalu and model of comput system Rank : 77 File : CACM-2646.html score : 0.12457819
+Query : perform evalu and model of comput system Rank : 78 File : CACM-2055.html score : 0.12380074
+Query : perform evalu and model of comput system Rank : 79 File : CACM-2795.html score : 0.12205663
+Query : perform evalu and model of comput system Rank : 80 File : CACM-2860.html score : 0.121130414
+Query : perform evalu and model of comput system Rank : 81 File : CACM-1989.html score : 0.12009747
+Query : perform evalu and model of comput system Rank : 82 File : CACM-1916.html score : 0.11976199
+Query : perform evalu and model of comput system Rank : 83 File : CACM-2111.html score : 0.11947678
+Query : perform evalu and model of comput system Rank : 84 File : CACM-1951.html score : 0.119242035
+Query : perform evalu and model of comput system Rank : 85 File : CACM-2720.html score : 0.11868624
+Query : perform evalu and model of comput system Rank : 86 File : CACM-2314.html score : 0.11632995
+Query : perform evalu and model of comput system Rank : 87 File : CACM-1471.html score : 0.115148894
+Query : perform evalu and model of comput system Rank : 88 File : CACM-3067.html score : 0.11456777
+Query : perform evalu and model of comput system Rank : 89 File : CACM-1025.html score : 0.11442709
+Query : perform evalu and model of comput system Rank : 90 File : CACM-1344.html score : 0.11403488
+Query : perform evalu and model of comput system Rank : 91 File : CACM-1630.html score : 0.11370182
+Query : perform evalu and model of comput system Rank : 92 File : CACM-2374.html score : 0.11291109
+Query : perform evalu and model of comput system Rank : 93 File : CACM-3075.html score : 0.11291109
+Query : perform evalu and model of comput system Rank : 94 File : CACM-2977.html score : 0.11281486
+Query : perform evalu and model of comput system Rank : 95 File : CACM-3000.html score : 0.11249669
+Query : perform evalu and model of comput system Rank : 96 File : CACM-1935.html score : 0.11085082
+Query : perform evalu and model of comput system Rank : 97 File : CACM-2627.html score : 0.11065768
+Query : perform evalu and model of comput system Rank : 98 File : CACM-0942.html score : 0.110145055
+Query : perform evalu and model of comput system Rank : 99 File : CACM-2888.html score : 0.10810121
+Query : perform evalu and model of comput system Rank : 100 File : CACM-2891.html score : 0.10774464
+================================================================ 
+Query : parallel processor in inform retriev Rank : 1 File : cacm_stem.query.txt score : 2.1417525
+Query : parallel processor in inform retriev Rank : 2 File : cacm_stem.txt score : 0.4699512
+Query : parallel processor in inform retriev Rank : 3 File : CACM-2973.html score : 0.35983488
+Query : parallel processor in inform retriev Rank : 4 File : CACM-1811.html score : 0.345408
+Query : parallel processor in inform retriev Rank : 5 File : CACM-2838.html score : 0.24193837
+Query : parallel processor in inform retriev Rank : 6 File : CACM-2175.html score : 0.20743108
+Query : parallel processor in inform retriev Rank : 7 File : CACM-2967.html score : 0.18328056
+Query : parallel processor in inform retriev Rank : 8 File : CACM-2723.html score : 0.18159936
+Query : parallel processor in inform retriev Rank : 9 File : CACM-2497.html score : 0.1804657
+Query : parallel processor in inform retriev Rank : 10 File : CACM-1770.html score : 0.17707638
+Query : parallel processor in inform retriev Rank : 11 File : CACM-1613.html score : 0.16813926
+Query : parallel processor in inform retriev Rank : 12 File : CACM-2714.html score : 0.15669735
+Query : parallel processor in inform retriev Rank : 13 File : CACM-1788.html score : 0.153217
+Query : parallel processor in inform retriev Rank : 14 File : CACM-2896.html score : 0.15016791
+Query : parallel processor in inform retriev Rank : 15 File : CACM-1367.html score : 0.14862768
+Query : parallel processor in inform retriev Rank : 16 File : CACM-1262.html score : 0.1461118
+Query : parallel processor in inform retriev Rank : 17 File : CACM-1828.html score : 0.13923827
+Query : parallel processor in inform retriev Rank : 18 File : CACM-0406.html score : 0.12968466
+Query : parallel processor in inform retriev Rank : 19 File : CACM-1601.html score : 0.12737346
+Query : parallel processor in inform retriev Rank : 20 File : CACM-3075.html score : 0.12573104
+Query : parallel processor in inform retriev Rank : 21 File : CACM-1742.html score : 0.12510115
+Query : parallel processor in inform retriev Rank : 22 File : CACM-1530.html score : 0.12384383
+Query : parallel processor in inform retriev Rank : 23 File : CACM-2895.html score : 0.1226116
+Query : parallel processor in inform retriev Rank : 24 File : CACM-2266.html score : 0.12184181
+Query : parallel processor in inform retriev Rank : 25 File : CACM-2785.html score : 0.12184181
+Query : parallel processor in inform retriev Rank : 26 File : CACM-3156.html score : 0.12184181
+Query : parallel processor in inform retriev Rank : 27 File : CACM-2202.html score : 0.11599348
+Query : parallel processor in inform retriev Rank : 28 File : CACM-2246.html score : 0.11302538
+Query : parallel processor in inform retriev Rank : 29 File : CACM-3059.html score : 0.11120649
+Query : parallel processor in inform retriev Rank : 30 File : CACM-1825.html score : 0.110848986
+Query : parallel processor in inform retriev Rank : 31 File : CACM-2342.html score : 0.10762558
+Query : parallel processor in inform retriev Rank : 32 File : CACM-0950.html score : 0.10726279
+Query : parallel processor in inform retriev Rank : 33 File : CACM-1468.html score : 0.10726279
+Query : parallel processor in inform retriev Rank : 34 File : CACM-2865.html score : 0.10726279
+Query : parallel processor in inform retriev Rank : 35 File : CACM-1569.html score : 0.10427077
+Query : parallel processor in inform retriev Rank : 36 File : CACM-1214.html score : 0.10374772
+Query : parallel processor in inform retriev Rank : 37 File : CACM-2851.html score : 0.10304322
+Query : parallel processor in inform retriev Rank : 38 File : CACM-2401.html score : 0.10153484
+Query : parallel processor in inform retriev Rank : 39 File : CACM-2080.html score : 0.10120642
+Query : parallel processor in inform retriev Rank : 40 File : CACM-2645.html score : 0.10008092
+Query : parallel processor in inform retriev Rank : 41 File : CACM-1625.html score : 0.0962844
+Query : parallel processor in inform retriev Rank : 42 File : CACM-2469.html score : 0.095316686
+Query : parallel processor in inform retriev Rank : 43 File : CACM-2570.html score : 0.09216321
+Query : parallel processor in inform retriev Rank : 44 File : CACM-1589.html score : 0.0917009
+Query : parallel processor in inform retriev Rank : 45 File : CACM-2195.html score : 0.09152966
+Query : parallel processor in inform retriev Rank : 46 File : CACM-0482.html score : 0.09122848
+Query : parallel processor in inform retriev Rank : 47 File : CACM-2386.html score : 0.09122848
+Query : parallel processor in inform retriev Rank : 48 File : CACM-0963.html score : 0.09077925
+Query : parallel processor in inform retriev Rank : 49 File : CACM-1288.html score : 0.09077925
+Query : parallel processor in inform retriev Rank : 50 File : CACM-3039.html score : 0.08845987
+Query : parallel processor in inform retriev Rank : 51 File : CACM-1846.html score : 0.0874875
+Query : parallel processor in inform retriev Rank : 52 File : CACM-0731.html score : 0.08720022
+Query : parallel processor in inform retriev Rank : 53 File : CACM-1008.html score : 0.086699486
+Query : parallel processor in inform retriev Rank : 54 File : CACM-1380.html score : 0.086699486
+Query : parallel processor in inform retriev Rank : 55 File : CACM-0141.html score : 0.08656588
+Query : parallel processor in inform retriev Rank : 56 File : CACM-0392.html score : 0.08656588
+Query : parallel processor in inform retriev Rank : 57 File : CACM-1302.html score : 0.08656588
+Query : parallel processor in inform retriev Rank : 58 File : CACM-2433.html score : 0.08433869
+Query : parallel processor in inform retriev Rank : 59 File : CACM-1341.html score : 0.08370328
+Query : parallel processor in inform retriev Rank : 60 File : CACM-3175.html score : 0.08370328
+Query : parallel processor in inform retriev Rank : 61 File : CACM-1665.html score : 0.0825055
+Query : parallel processor in inform retriev Rank : 62 File : CACM-1708.html score : 0.08170002
+Query : parallel processor in inform retriev Rank : 63 File : CACM-1749.html score : 0.08170002
+Query : parallel processor in inform retriev Rank : 64 File : CACM-1988.html score : 0.08170002
+Query : parallel processor in inform retriev Rank : 65 File : CACM-2162.html score : 0.08170002
+Query : parallel processor in inform retriev Rank : 66 File : CACM-2938.html score : 0.08170002
+Query : parallel processor in inform retriev Rank : 67 File : CACM-1747.html score : 0.08122787
+Query : parallel processor in inform retriev Rank : 68 File : CACM-2918.html score : 0.08049139
+Query : parallel processor in inform retriev Rank : 69 File : CACM-1805.html score : 0.07850521
+Query : parallel processor in inform retriev Rank : 70 File : CACM-1536.html score : 0.078203075
+Query : parallel processor in inform retriev Rank : 71 File : CACM-2376.html score : 0.078203075
+Query : parallel processor in inform retriev Rank : 72 File : CACM-1505.html score : 0.07781079
+Query : parallel processor in inform retriev Rank : 73 File : CACM-1852.html score : 0.07781079
+Query : parallel processor in inform retriev Rank : 74 File : CACM-2681.html score : 0.07781079
+Query : parallel processor in inform retriev Rank : 75 File : CACM-1488.html score : 0.077719554
+Query : parallel processor in inform retriev Rank : 76 File : CACM-2182.html score : 0.07574515
+Query : parallel processor in inform retriev Rank : 77 File : CACM-2685.html score : 0.07496825
+Query : parallel processor in inform retriev Rank : 78 File : CACM-2928.html score : 0.07451397
+Query : parallel processor in inform retriev Rank : 79 File : CACM-1471.html score : 0.07431384
+Query : parallel processor in inform retriev Rank : 80 File : CACM-1554.html score : 0.07431384
+Query : parallel processor in inform retriev Rank : 81 File : CACM-1957.html score : 0.07431384
+Query : parallel processor in inform retriev Rank : 82 File : CACM-1960.html score : 0.07431384
+Query : parallel processor in inform retriev Rank : 83 File : CACM-2514.html score : 0.07431384
+Query : parallel processor in inform retriev Rank : 84 File : CACM-2060.html score : 0.07373057
+Query : parallel processor in inform retriev Rank : 85 File : CACM-2898.html score : 0.071599856
+Query : parallel processor in inform retriev Rank : 86 File : CACM-1676.html score : 0.07057028
+Query : parallel processor in inform retriev Rank : 87 File : CACM-2289.html score : 0.069991425
+Query : parallel processor in inform retriev Rank : 88 File : CACM-1160.html score : 0.06808335
+Query : parallel processor in inform retriev Rank : 89 File : CACM-1751.html score : 0.06808335
+Query : parallel processor in inform retriev Rank : 90 File : CACM-1901.html score : 0.06808335
+Query : parallel processor in inform retriev Rank : 91 File : CACM-2130.html score : 0.06808335
+Query : parallel processor in inform retriev Rank : 92 File : CACM-2950.html score : 0.06808335
+Query : parallel processor in inform retriev Rank : 93 File : CACM-0320.html score : 0.06765616
+Query : parallel processor in inform retriev Rank : 94 File : CACM-1959.html score : 0.06765616
+Query : parallel processor in inform retriev Rank : 95 File : CACM-1844.html score : 0.06593148
+Query : parallel processor in inform retriev Rank : 96 File : CACM-1325.html score : 0.06516924
+Query : parallel processor in inform retriev Rank : 97 File : CACM-1795.html score : 0.06492441
+Query : parallel processor in inform retriev Rank : 98 File : CACM-2700.html score : 0.06492441
+Query : parallel processor in inform retriev Rank : 99 File : CACM-2632.html score : 0.06484233
+Query : parallel processor in inform retriev Rank : 100 File : CACM-3119.html score : 0.064508274
+================================================================ 
