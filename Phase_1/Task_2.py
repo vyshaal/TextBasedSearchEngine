@@ -11,26 +11,36 @@ relevance_dict = pickle.load(open("relevance_dict.p", "rb"))
 N = len(document_tokens)
 
 
-def retrieve_bm_25_docs():
-    bm_25 = RetrievalModel.BM25(N, inverted_index, document_tokens, relevance_dict)
-    ranked_list = bm_25.bm_25_list(query_dict)
-    for query, scores in ranked_list.items():
-        relevance_feedback(query,scores)
+def retrieve_docs():
+    model = RetrievalModel.CosineSimilarity(N, inverted_index, document_tokens)
+    ranked_list = model.cosine_similarity_list(query_dict)
+    for query_id, scores in ranked_list.items():
+        print(scores)
+        updated_query = relevance_feedback_query(query_dict[query_id],scores)
+        updated_list = model.cosine_similarity_list({query_id : updated_query})
+        print(updated_list.items())
         break
 
 
-def relevance_feedback(query,scores):
-    docids = [i for i,j in scores][:5]
-    print(docids)
+def relevance_feedback_query(query,scores):
+    docids = [i for i,j in scores][:15]
+
     all_words = []
     for docid in docids:
         all_words += document_tokens[docid]
-    high_freq_words_dict = Counter(all_words)
-    sorted_list = sorted(high_freq_words_dict.items(), key=operator.itemgetter(1), reverse=True)
-    add_terms = [i for i,j in sorted_list][:30]
-    freq_terms = [j for i, j in sorted_list][:30]
 
-    print(add_terms)
-    print(freq_terms)
+    query_term_weight = Counter(all_words)
+    for query_term in query.split():
+        if query_term in query_term_weight.keys():
+            query_term_weight[query_term] += 15
+        else:
+            query_term_weight[query_term] = 15
 
-retrieve_bm_25_docs()
+    query_length = len(query.split())
+    weighted_terms = sorted(query_term_weight.items(), key=operator.itemgetter(1), reverse=True)
+
+    new_query = [i for i, j in weighted_terms][:query_length+20]
+    return " ".join(new_query)
+
+
+retrieve_docs()

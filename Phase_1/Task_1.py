@@ -19,35 +19,35 @@ dict = {}
 
 def retrieve_relevant_documents():
     retrieve_cosine_sim_docs()
-    retrieve_tf_idf__docs()
-    retrieve_bm_25_docs()
+    #retrieve_tf_idf__docs()
+    #retrieve_bm_25_docs()
     #retrieve_lucene_docs()
 
 
 def retrieve_cosine_sim_docs():
     cosine_sim = RetrievalModel.CosineSimilarity(N, inverted_index, document_tokens)
     ranked_list = cosine_sim.cosine_similarity_list(query_dict)
-#    for query, scores in ranked_list.items():
-#        print(query)
-#        print(scores)
-    print(list(ranked_list.items())[0])
+    for query_id, scores in ranked_list.items():
+        print(query_id,query_dict[query_id])
+        print(scores)
+        break
 
 
 def retrieve_tf_idf__docs():
     tf_idf = RetrievalModel.TFIDF(N, inverted_index, document_tokens)
     ranked_list = tf_idf.tf_idf_list(query_dict)
-#    for query, scores in ranked_list.items():
-#        print(query)
-#        print(scores)
-    print(list(ranked_list.items())[0])
+    for query_id, scores in ranked_list.items():
+        print(query_id, query_dict[query_id])
+        print(scores)
+        break
 
 
 def retrieve_bm_25_docs():
     bm_25 = RetrievalModel.BM25(N, inverted_index, document_tokens, relevance_dict)
     ranked_list = bm_25.bm_25_list(query_dict)
-#    for query, scores in ranked_list.items():
-#        print(query)
-#        print(scores)
-    print(list(ranked_list.items())[0])
+    for query_id, scores in ranked_list.items():
+        print(query_id, query_dict[query_id])
+        print(scores)
+        break
 
 retrieve_relevant_documents()

@@ -12,8 +12,8 @@ class CosineSimilarity:
 
     def cosine_similarity_list(self, query_dict):
         ranked_list = {}
-        for query in query_dict.values():
-            ranked_list[query] = self.get_ranked_list(query)
+        for query_id,query in query_dict.items():
+            ranked_list[query_id] = self.get_ranked_list(query)
         return ranked_list
 
     def get_ranked_list(self, query):
@@ -69,8 +69,8 @@ class TFIDF:
 
     def tf_idf_list(self, query_dict):
         ranked_list = {}
-        for query in query_dict.values():
-            ranked_list[query] = self.get_ranked_list(query)
+        for query_id,query in query_dict.items():
+            ranked_list[query_id] = self.get_ranked_list(query)
         return ranked_list
 
     def get_ranked_list(self, query):
@@ -109,7 +109,7 @@ class BM25:
     def bm_25_list(self, query_dict):
         ranked_list = {}
         for query_id,query in query_dict.items():
-            ranked_list[query] = self.get_ranked_list(query,query_id)
+            ranked_list[query_id] = self.get_ranked_list(query,query_id)
         return ranked_list
 
     def get_ranked_list(self, query, query_id):

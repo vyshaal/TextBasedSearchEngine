@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9190819e-2d51-492f-8d25-32c382781aeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Phase_1/Task_2.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phase_1/relevance_values.p" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/RetrievalModel.py" afterPath="$PROJECT_DIR$/Phase_1/RetrievalModel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/Task_1.py" afterPath="$PROJECT_DIR$/Phase_1/Task_1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/build_indexer.py" afterPath="$PROJECT_DIR$/Phase_1/build_indexer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/document_tokens.p" afterPath="$PROJECT_DIR$/Phase_1/document_tokens.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/inverted_index.p" afterPath="$PROJECT_DIR$/Phase_1/inverted_index.p" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/Task_2.py" afterPath="$PROJECT_DIR$/Phase_1/Task_2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/query_dict.p" afterPath="$PROJECT_DIR$/Phase_1/query_dict.p" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/read_queries.py" afterPath="$PROJECT_DIR$/Phase_1/read_queries.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/relevance_values.py" afterPath="$PROJECT_DIR$/Phase_1/relevance_values.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/citations.txt" afterPath="$PROJECT_DIR$/citations.txt" />
     </list>
     <ignored path="cs6200f16-IRProject.iws" />
@@ -36,33 +31,11 @@
       <file leaf-file-name="Task_1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read_queries.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Phase_1/read_queries.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="citations.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/citations.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -70,34 +43,10 @@
       <file leaf-file-name="Task_2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Phase_1/Task_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="615">
+              <caret line="41" column="62" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="62" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build_indexer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Phase_1/build_indexer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relevance_values.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Phase_1/relevance_values.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +55,8 @@
       <file leaf-file-name="RetrievalModel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phase_1/RetrievalModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -134,11 +83,11 @@
         <option value="$PROJECT_DIR$/Phase_1/CosineSimilarity.py" />
         <option value="$PROJECT_DIR$/Phase_1/ignore.py" />
         <option value="$PROJECT_DIR$/Phase_1/relevance_values.py" />
-        <option value="$PROJECT_DIR$/Phase_1/RetrievalModel.py" />
-        <option value="$PROJECT_DIR$/Phase_1/Task_2.py" />
+        <option value="$PROJECT_DIR$/Phase_1/build_indexer.py" />
         <option value="$PROJECT_DIR$/citations.txt" />
         <option value="$PROJECT_DIR$/Phase_1/read_queries.py" />
-        <option value="$PROJECT_DIR$/Phase_1/build_indexer.py" />
+        <option value="$PROJECT_DIR$/Phase_1/RetrievalModel.py" />
+        <option value="$PROJECT_DIR$/Phase_1/Task_2.py" />
         <option value="$PROJECT_DIR$/Phase_1/Task_1.py" />
       </list>
     </option>
@@ -215,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/PyCharm Projects/Information Retrieval/Assignment_03" />
   </component>
-  <component name="RunManager" selected="Python.Task_1">
+  <component name="RunManager" selected="Python.Task_2">
     <configuration default="false" name="Task_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,11 +393,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Task_1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.build_indexer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.read_queries" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Task_2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.relevance_values" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Task_2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.relevance_values" />
+        <item index="2" class="java.lang.String" itemvalue="Python.build_indexer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.read_queries" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +424,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -514,11 +463,6 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Phase_1/read_queries.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Phase_1/build_indexer.py</url>
           <line>31</line>
           <option name="timeStamp" value="53" />
@@ -529,9 +473,14 @@
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Phase_1/RetrievalModel.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="56" />
+          <url>file://$PROJECT_DIR$/Phase_1/read_queries.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Phase_1/Task_2.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -541,7 +490,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="57" />
+      <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -586,14 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/relevance_dict.p">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Phase_1/query_dict.p">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -602,68 +543,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/relevance_values.py">
+    <entry file="file://$PROJECT_DIR$/Phase_1/relevance_dict.p">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/citations.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        <state relative-caret-position="105">
+          <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/read_queries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Phase_1/RetrievalModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/build_indexer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/read_queries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/build_indexer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/relevance_values.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Phase_1/Task_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="615">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="62" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

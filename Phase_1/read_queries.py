@@ -8,7 +8,8 @@ query_dict = {}
 
 def clean_content(s):
     s = s.replace('-',' ').lower()
-    return ''.join(e for e in s if e.isalnum() or e == " ")
+    s = ''.join(e for e in s if e.isalnum() or e == " ")
+    return " ".join(s.split())
 
 
 def read_queries():
