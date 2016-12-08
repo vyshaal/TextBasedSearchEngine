@@ -2,6 +2,7 @@ import pickle
 from collections import Counter
 from Phase_1 import RetrievalModel
 import operator
+import csv
 
 inverted_index = pickle.load(open("inverted_index.p", "rb"))
 document_tokens = pickle.load(open("document_tokens.p", "rb"))
@@ -9,18 +10,27 @@ query_dict = pickle.load(open("query_dict.p", "rb"))
 relevance_dict = pickle.load(open("relevance_dict.p", "rb"))
 
 N = len(document_tokens)
+query_expansion_table = "query_expansion.csv"
 
 
 def retrieve_docs():
     model = RetrievalModel.CosineSimilarity(N, inverted_index, document_tokens)
     ranked_list = model.cosine_similarity_list(query_dict)
-    for query_id, scores in ranked_list.items():
-        print(query_id + " " + query_dict[query_id])
-        print(scores)
-        updated_query = relevance_feedback_query(query_dict[query_id],scores)
-        updated_list = model.cosine_similarity_list({query_id : updated_query})
-        print(updated_list.values())
-        break
+    with open(query_expansion_table, "w") as file:
+        csv_writer = csv.writer(file)
+
+        for query_id, scores in ranked_list.items():
+            print(scores)
+            updated_query = relevance_feedback_query(query_dict[query_id],scores)
+            updated_list = model.cosine_similarity_list({query_id : updated_query})
+            for qid, scores in updated_list.items():
+                i = 0
+                for score in scores:
+                    i += 1
+                    csv_writer.writerow((qid, "Q0", score[0], i, score[1], "query_expansion"))
+                    print(qid, query_dict[qid])
+                    print(score)
+        file.close()
 
 
 def relevance_feedback_query(query,scores):

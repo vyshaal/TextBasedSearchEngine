@@ -22,7 +22,7 @@ class CosineSimilarity:
         for doc, value in self.document_tokens.items():
             document_magnitude = self.calculate_document_magnitude(doc)
             document_scores[doc] = self.cosine_sim_value(doc, query.split(), document_magnitude, query_magnitude)
-        return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)
+        return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)[:100]
 
     def calculate_document_magnitude(self, doc):
         value = 0
@@ -77,7 +77,7 @@ class TFIDF:
         document_scores = {}
         for key, value in self.document_tokens.items():
             document_scores[key] = self.tf_idf_value(key, query.split())
-        return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)
+        return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)[:100]
 
     def tf_idf_value(self, doc, query):
         value = 0
@@ -116,7 +116,7 @@ class BM25:
         document_scores = {}
         for key, value in self.document_tokens.items():
             document_scores[key] = self.bm_25_value(key, query.split(), query_id)
-        return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)
+        return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)[:100]
 
     def get_k_value(self, doc):
         return self.k1 * (1 - self.b + self.b * (len(self.document_tokens[doc]) / self.avdl))
