@@ -27,8 +27,8 @@ def retrieve_docs():
         csv_writer = csv.writer(file)
 
         for query_id, scores in ranked_list.items():
-            print(query_id + " " + query_dict[query_id])
-            print(scores)
+#            print(query_id + " " + query_dict[query_id])
+#            print(scores)
             updated_query = relevance_feedback_query(query_dict[query_id], scores, updated_document_tokens, stop_words)
             updated_list = model.cosine_similarity_list({query_id: updated_query})
             for qid,ss in updated_list.items():
@@ -59,8 +59,6 @@ def relevance_feedback_query(query, scores, updated_document_tokens, stop_words)
     weighted_terms = sorted(query_term_weight.items(), key=operator.itemgetter(1), reverse=True)
 
     new_query = [i for i, j in weighted_terms][:query_length + 5]
-    print(query)
-    print(" ".join(new_query))
     return " ".join(new_query)
 
 

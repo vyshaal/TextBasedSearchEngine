@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9190819e-2d51-492f-8d25-32c382781aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/plots/bm25.png" afterPath="$PROJECT_DIR$/Phase_2/plots/bm25.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/plots/lucene.png" afterPath="$PROJECT_DIR$/Phase_2/plots/lucene.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/plots/query_expansion.png" afterPath="$PROJECT_DIR$/Phase_2/plots/query_expansion.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/plots/query_expansion_with_stopping.png" afterPath="$PROJECT_DIR$/Phase_2/plots/query_expansion_with_stopping.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/plots/stemming.png" afterPath="$PROJECT_DIR$/Phase_2/plots/stemming.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/plots/stopping.png" afterPath="$PROJECT_DIR$/Phase_2/plots/stopping.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/plots/tfidf.png" afterPath="$PROJECT_DIR$/Phase_2/plots/tfidf.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/plots/vsm.png" afterPath="$PROJECT_DIR$/Phase_2/plots/vsm.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/RetrievalModel.py" afterPath="$PROJECT_DIR$/Phase_1/RetrievalModel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/bm25.csv" afterPath="$PROJECT_DIR$/Phase_1/bm25.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/build_indexer.py" afterPath="$PROJECT_DIR$/Phase_1/build_indexer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/document_tokens.p" afterPath="$PROJECT_DIR$/Phase_1/document_tokens.p" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/inverted_index.p" afterPath="$PROJECT_DIR$/Phase_1/inverted_index.p" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/Task_1.py" afterPath="$PROJECT_DIR$/Phase_1/Task_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/Task_2.py" afterPath="$PROJECT_DIR$/Phase_1/Task_2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/query_expansion.csv" afterPath="$PROJECT_DIR$/Phase_1/query_expansion.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/read_queries.py" afterPath="$PROJECT_DIR$/Phase_1/read_queries.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/stemming_vsm.csv" afterPath="$PROJECT_DIR$/Phase_1/stemming_vsm.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/stopping_vsm.csv" afterPath="$PROJECT_DIR$/Phase_1/stopping_vsm.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/tfidf.csv" afterPath="$PROJECT_DIR$/Phase_1/tfidf.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/vsm.csv" afterPath="$PROJECT_DIR$/Phase_1/vsm.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/bm25_MAP.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/bm25_MAP.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/bm25_P@K=20.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/bm25_P@K=20.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/bm25_Precision&amp;Recall.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/bm25_Precision&amp;Recall.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/Task.py" afterPath="$PROJECT_DIR$/Phase_2/Task.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_MAP.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_MAP.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_MRR.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_MRR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_P@K=20.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_P@K=20.csv" />
@@ -35,19 +26,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_with_stopping_P@K=20.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_with_stopping_P@K=20.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_with_stopping_P@K=5.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_with_stopping_P@K=5.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_with_stopping_Precision&amp;Recall.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/query_expansion_with_stopping_Precision&amp;Recall.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stemming_MAP.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stemming_MAP.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stemming_MRR.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stemming_MRR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stemming_P@K=20.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stemming_P@K=20.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stemming_Precision&amp;Recall.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stemming_Precision&amp;Recall.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_MAP.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_MAP.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_MRR.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_MRR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_P@K=20.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_P@K=20.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_P@K=5.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_P@K=5.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_Precision&amp;Recall.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/stopping_Precision&amp;Recall.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/tfidf_Precision&amp;Recall.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/tfidf_Precision&amp;Recall.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_MAP.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_MAP.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_MRR.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_MRR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_P@K=20.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_P@K=20.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_P@K=5.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_P@K=5.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_Precision&amp;Recall.csv" afterPath="$PROJECT_DIR$/Phase_2/performance_acessment/vsm_Precision&amp;Recall.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/query_expansion_with_stopping_vsm.csv" afterPath="$PROJECT_DIR$/Phase_2/query_expansion_with_stopping_vsm.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py" afterPath="$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py" />
     </list>
     <ignored path="cs6200f16-IRProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,13 +60,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="retrieval_effectiveness.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="retrieval_effectiveness.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="312">
+              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task_1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,7 +87,7 @@
       <file leaf-file-name="Task_3B.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phase_1/Task_3B.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-406">
+            <state relative-caret-position="15">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
@@ -92,21 +97,9 @@
       <file leaf-file-name="Task.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phase_2/Task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
+            <state relative-caret-position="76">
+              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +107,8 @@
       <file leaf-file-name="RetrievalModel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phase_1/RetrievalModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            <state relative-caret-position="135">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -124,8 +117,8 @@
       <file leaf-file-name="Task_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phase_1/Task_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -162,17 +155,17 @@
         <option value="$PROJECT_DIR$/Phase_1/relevance_values.py" />
         <option value="$PROJECT_DIR$/Phase_1/SearchEngineLucene/common_words.py" />
         <option value="$PROJECT_DIR$/Phase_2/queryexpansion_stopping.py" />
-        <option value="$PROJECT_DIR$/Phase_1/Task_1.py" />
-        <option value="$PROJECT_DIR$/Phase_1/Task_2.py" />
         <option value="$PROJECT_DIR$/Phase_1/Task_3A.py" />
         <option value="$PROJECT_DIR$/Phase_1/Task_3B.py" />
-        <option value="$PROJECT_DIR$/Phase_2/Task.py" />
         <option value="$PROJECT_DIR$/Meghna/snippet_generator.py" />
         <option value="$PROJECT_DIR$/citations.txt" />
         <option value="$PROJECT_DIR$/Phase_1/build_indexer.py" />
         <option value="$PROJECT_DIR$/Phase_1/read_queries.py" />
-        <option value="$PROJECT_DIR$/Phase_1/RetrievalModel.py" />
         <option value="$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py" />
+        <option value="$PROJECT_DIR$/Phase_1/Task_1.py" />
+        <option value="$PROJECT_DIR$/Phase_1/RetrievalModel.py" />
+        <option value="$PROJECT_DIR$/Phase_1/Task_2.py" />
+        <option value="$PROJECT_DIR$/Phase_2/Task.py" />
       </list>
     </option>
   </component>
@@ -238,6 +231,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs6200f16-IRProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs6200f16-IRProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -249,24 +256,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.retrieval_effectiveness">
-    <configuration default="false" name="Task_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Phase_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cs6200f16-IRProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Phase_1/Task_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Task_1">
     <configuration default="false" name="Task_3A" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,6 +321,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cs6200f16-IRProject" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Task_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Phase_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs6200f16-IRProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Phase_1/Task_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -470,19 +477,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Task_2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Task_3A" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Task_3B" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Task" />
-      <item index="4" class="java.lang.String" itemvalue="Python.retrieval_effectiveness" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Task_3A" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Task_3B" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Task" />
+      <item index="3" class="java.lang.String" itemvalue="Python.retrieval_effectiveness" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Task_1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.retrieval_effectiveness" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Task" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Task_3B" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Task_3A" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Task_2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Task_1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.retrieval_effectiveness" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Task" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Task_3B" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Task_3A" />
       </list>
     </recent_temporary>
   </component>
@@ -508,11 +515,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30547947" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4082192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46986303" sideWeight="0.49722" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42328766" sideWeight="0.49722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -587,16 +594,16 @@
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <condition expression="doc == 'CACM-1657'" language="Python" />
-          <url>file://$PROJECT_DIR$/Phase_1/RetrievalModel.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <condition expression="name == &quot;stemming&quot;" language="Python" />
           <url>file://$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py</url>
           <line>132</line>
           <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="doc == &quot;CACM-1657&quot; and key == &quot;system&quot;" language="Python" />
+          <url>file://$PROJECT_DIR$/Phase_1/RetrievalModel.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -606,7 +613,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="120" />
+      <option name="time" value="130" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -756,16 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/relevance_values.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/given_files/cacm_stem.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -779,13 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/stopping_vsm.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -881,17 +871,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/vsm.csv">
+    <entry file="file://$PROJECT_DIR$/Phase_2/plots/stemming.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/relevance_values.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_2/plots/stemming.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/Phase_1/stopping_vsm.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Phase_1/stemming_vsm.csv">
@@ -902,28 +900,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
+    <entry file="file://$PROJECT_DIR$/Phase_1/tfidf.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/Task_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Phase_1/RetrievalModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+        <state relative-caret-position="135">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/vsm.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="54" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/Task_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -938,26 +942,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Phase_1/Task_3B.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
+        <state relative-caret-position="15">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_2/Task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_2/Task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

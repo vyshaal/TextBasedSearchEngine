@@ -25,13 +25,14 @@ class CosineSimilarity:
         return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)[:100]
 
     def calculate_document_magnitude(self, doc):
-        value = 0
+        magnitude = 0
         token_counter = Counter(self.document_tokens[doc])
         for key, value in token_counter.items():
             doc_tf = token_counter[key] / len(self.document_tokens[doc])
             doc_idf = 1 + math.log(self.N / len(self.inverted_index[key]))
-            value += math.pow(doc_tf * doc_idf, 2)
-        return math.sqrt(value)
+            magnitude += math.pow(doc_tf * doc_idf, 2)
+
+        return math.sqrt(magnitude)
 
     def calculate_query_magnitude(self, query):
         magnitude = 0

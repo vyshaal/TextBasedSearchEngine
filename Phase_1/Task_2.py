@@ -34,7 +34,7 @@ def retrieve_docs():
 
 
 def relevance_feedback_query(query,scores):
-    no_of_docs = 5
+    no_of_docs = 10
     docids = [i for i,j in scores][:no_of_docs]
 
     all_words = []
