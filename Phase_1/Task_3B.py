@@ -2,6 +2,9 @@ import pickle
 from collections import Counter
 from Phase_1 import RetrievalModel
 import operator
+import csv
+
+stem_table = "stemming_vsm.csv"
 
 stem_query_path = "../given_files/cacm_stem.query.txt"
 stem_corpus_path = "../given_files/cacm_stem.txt"
@@ -13,11 +16,17 @@ def retrieve_docs():
     inverted_index = build_index(document_tokens)
     model = RetrievalModel.CosineSimilarity(len(document_tokens), inverted_index, document_tokens)
     ranked_list = model.cosine_similarity_list(stem_query_dict)
-    for query_id, scores in ranked_list.items():
-        print(stem_query_dict[query_id])
-        print(query_id + " " + stem_query_dict[query_id])
-        print(scores)
-        break
+
+    with open(stem_table, "w") as file:
+        csv_writer = csv.writer(file)
+        for query_id, scores in ranked_list.items():
+            i = 0
+            for score in scores:
+                i += 1
+                csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "using_stemmed_words"))
+                print(query_id,stem_query_dict[query_id])
+                print(score)
+    file.close()
 
 
 def retrieve_query():

@@ -2,6 +2,7 @@ import pickle
 from collections import Counter
 from Phase_1 import RetrievalModel
 import operator
+import csv
 
 stop_words_path = "../given_files/common_words"
 
@@ -12,6 +13,8 @@ relevance_dict = pickle.load(open("relevance_dict.p", "rb"))
 
 N = len(document_tokens)
 
+stop_table = "stopping_vsm.csv"
+
 
 def retrieve_docs():
     stop_words = retrieve_stop_words()
@@ -19,10 +22,17 @@ def retrieve_docs():
     updated_query_dict = update_queries(stop_words)
     model = RetrievalModel.CosineSimilarity(N, inverted_index, updated_document_tokens)
     ranked_list = model.cosine_similarity_list(updated_query_dict)
-    for query_id, scores in ranked_list.items():
-        print(query_id + " " + query_dict[query_id])
-        print(scores)
-        break
+
+    with open(stop_table, "w") as file:
+        csv_writer = csv.writer(file)
+        for query_id, scores in ranked_list.items():
+            i = 0
+            for score in scores:
+                i += 1
+                csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "using_stop_words"))
+                print(query_id,query_dict[query_id])
+                print(score)
+    file.close()
 
 
 def retrieve_stop_words():

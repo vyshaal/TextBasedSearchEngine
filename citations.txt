@@ -6,3 +6,4 @@ https://github.com/rohanag/ADB-relevance-feedback-rocchio
 https://www.academia.edu/2787890/Relevance_feedback_and_inference_networks
 web.stanford.edu/class/cs276/handouts/lecture9-queryexpansion.ppt
 https://www.youtube.com/watch?v=WTlomM_iDVA&list=PLBv09BD7ez_6kGMKFo9JwQf8Ld13WyHRd&index=23
+https://www.youtube.com/watch?v=dOr4NX4Z6-g
