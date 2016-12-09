@@ -1,5 +1,6 @@
 import csv
 import pickle
+import matplotlib.pyplot as plt
 
 relevance_dict = pickle.load(open("../Phase_1/relevance_dict.p", "rb"))
 
@@ -12,6 +13,7 @@ stemming_file = open("../Phase_1/stemming_vsm.csv")
 stopping_file = open("../Phase_1/stopping_vsm.csv")
 query_expansion_with_stopping_file = open('query_expansion_with_stopping_vsm.csv')
 dir = "performance_acessment/"
+plots = "plots/"
 
 
 def calculate_effectiveness(file,name):
@@ -122,9 +124,19 @@ def write_to_file(name,precision_at_5,precision_at_20,mean_reciprocal_rank,
                 i = 1
                 for doc in docs:
                     print(query_id,i)
-                    csv_writer.writerow((query_id,doc,precision_dict[query_id][str(i)],recall_dict[query_id][str(i)]))
+                    precision_value = precision_dict[query_id][str(i)]
+                    recall_value = recall_dict[query_id][str(i)]
+                    csv_writer.writerow((query_id,doc,precision_value,recall_value))
                     i += 1
         file.close()
+
+    for query_id,values in precision_dict.items():
+        precision_values = list(values.values())
+        recall_values = list(recall_dict[query_id].values())
+
+        plt.plot(recall_values,precision_values)
+        print(query_id)
+    plt.savefig(plots + name + '.png')
 
 
 def generate_tables():
