@@ -2,13 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9190819e-2d51-492f-8d25-32c382781aeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cs6200f16-IRProject.iml" afterPath="$PROJECT_DIR$/.idea/cs6200f16-IRProject.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IRReportFormat.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lucene/bin/HW4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Phase_1/Lucene.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/.idea/Meghna.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/IRReportFormat.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/Lucene_doc_score.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/lib/poi-3.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/query.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/bin/Lucene$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/bin/Lucene.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/index/_2.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/index/_2.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/index/_2.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/index/segments.gen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM1.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM10.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM11.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM12.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM13.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM14.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM15.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM16.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM17.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM18.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM19.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM2.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM20.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM21.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM22.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM23.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM24.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM25.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM26.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM27.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM28.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM29.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM3.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM30.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM31.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM32.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM33.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM34.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM35.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM36.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM37.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM38.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM39.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM4.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM40.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM41.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM42.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM43.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM44.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM45.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM46.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM47.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM48.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM49.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM5.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM50.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM51.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM52.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM53.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM54.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM55.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM56.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM57.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM58.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM59.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM6.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM60.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM61.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM62.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM63.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM64.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM7.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM8.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/luceneFiles/LuceneCACM9.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/query.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/src/Lucene.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/TASK-3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/cacm_stem.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/psfm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/snippet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/snippet_generator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Meghna/stemmedindex.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/index/_0.cfe" afterPath="$PROJECT_DIR$/lucene/index/_0.cfe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/index/_0.cfs" afterPath="$PROJECT_DIR$/lucene/index/_0.cfs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/index/_0.si" afterPath="$PROJECT_DIR$/lucene/index/_0.si" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/index/segments.gen" afterPath="$PROJECT_DIR$/lucene/index/segments.gen" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/index/segments_1" afterPath="$PROJECT_DIR$/lucene/index/segments_1" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/lib/lucene-analyzers-common-4.7.2.jar" afterPath="$PROJECT_DIR$/lucene/src/java_jars/lucene-analyzers-common-4.7.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/lib/lucene-core-4.7.2.jar" afterPath="$PROJECT_DIR$/lucene/src/java_jars/lucene-core-4.7.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/lib/lucene-queryparser-4.7.2.jar" afterPath="$PROJECT_DIR$/lucene/src/java_jars/lucene-queryparser-4.7.2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Meghna/TASK-1Lucene/LUCENE/src/Lucene.java" afterPath="$PROJECT_DIR$/lucene/src/HW4.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/Task_3A.py" afterPath="$PROJECT_DIR$/Phase_1/Task_3A.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_1/Task_3B.py" afterPath="$PROJECT_DIR$/Phase_1/Task_3B.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/Task.py" afterPath="$PROJECT_DIR$/Phase_2/Task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/citations.txt" afterPath="$PROJECT_DIR$/citations.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py" afterPath="$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py" />
     </list>
     <ignored path="cs6200f16-IRProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +125,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="retrieval_effectiveness.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="retrieval_effectiveness.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="447">
+              <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -40,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task_1.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Task_1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -116,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,28 +246,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cs6200f16-IRProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cs6200f16-IRProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phase_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="performance_acessment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -548,11 +627,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/given_files/cacm_stem.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="79" column="89" selection-start-line="79" selection-start-column="89" selection-end-line="79" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,29 +827,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meghna/snippet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Meghna/snippet_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Meghna/snippet.py" />
+    <entry file="file://$PROJECT_DIR$/Meghna/snippet_generator.py" />
     <entry file="file://$PROJECT_DIR$/citations.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="79" column="89" selection-start-line="79" selection-start-column="89" selection-end-line="79" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,17 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76321">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,12 +939,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_2/performance_acessment/bm25_MAP.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Phase_2/retrieval_effectiveness.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="447">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phase_1/Task_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
