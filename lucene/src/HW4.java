@@ -1,6 +1,8 @@
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -26,14 +28,18 @@ import org.apache.lucene.search.ScoreDoc;
 import org.apache.lucene.search.TopScoreDocCollector;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Row;
 
 /**
  * To create Apache Lucene index in a folder and add files into this index based
  * on the input of the user.
  */
-public class Lucene{
+public class HW4 {
 	private static Analyzer analyzer = new SimpleAnalyzer(Version.LUCENE_47);
-
+	
+	//HSSFSheet sheet = workbook.createSheet("Lucene");
 	private IndexWriter writer;
 	private ArrayList<File> queue = new ArrayList<File>();
 
@@ -46,10 +52,10 @@ public class Lucene{
 	String s = br.readLine();
 	//sortedTermFreq = new LinkedHashMap<String, Integer>();
 	
-	Lucene indexer = null;
+	HW4 indexer = null;
 	try {
 	    indexLocation = s;
-	    indexer = new Lucene(s);
+	    indexer = new HW4(s);
 	} catch (Exception ex) {
 	    System.out.println("Cannot create index..." + ex.getMessage());
 	    System.exit(-1);
@@ -60,10 +66,8 @@ public class Lucene{
 	// ===================================================
 	while (!s.equalsIgnoreCase("q")) {
 	    try {
-		System.out
-			.println("Enter the FULL path to add into the index (q=quit): (e.g. /home/mydir/docs or c:\\Users\\mydir\\docs)");
-		System.out
-			.println("[Acceptable file types: .xml, .html, .html, .txt]");
+		System.out.println("Enter the FULL path to add into the index (q=quit): (e.g. /home/mydir/docs or c:\\Users\\mydir\\docs)");
+		System.out.println("[Acceptable file types: .xml, .html, .html, .txt]");
 		s = br.readLine();
 		if (s.equalsIgnoreCase("q")) {
 		    break;
@@ -91,7 +95,7 @@ public class Lucene{
 		TopScoreDocCollector collector = null;
 
 		int query_id = 1;
-		Scanner queryScan = new Scanner(new File("/Users/meghnatulasi/Desktop/IRProject/query.txt"));
+		Scanner queryScan = new Scanner(new File("../HW4/query.txt"));
 
 		try {
 			/* Removing index files, if any existing in the directory */
@@ -108,8 +112,9 @@ public class Lucene{
 			System.exit(-1);
 		}
 
-		File docFile = new File("/Users/meghnatulasi/Desktop/IRProject/Lucene_doc_score.csv");
+		File docFile = new File("..s/Phase_1/Lucene.csv");
 		FileWriter docFileWriter = new FileWriter(docFile);
+		
 		while (queryScan.hasNextLine()) {
 			try {
 				String currentQuery = queryScan.nextLine().toLowerCase();
@@ -120,25 +125,41 @@ public class Lucene{
 
 				// 4. display results
 				System.out.println("\nThe number of hits for \n"+ currentQuery +" : "+ hits.length);
-				for (int i = 0; i < Math.min(100, hits.length); ++i) {
-					int docId = hits[i].doc;
+				
+		    	 int rowCount = 0;
+				for (int i = 0; i < Math.min(100, hits.length); ++i) 
+				{
+										int docId = hits[i].doc;
 					Document d = searcher.doc(docId);
 					String filename = d.get("filename");
-					filename = filename.substring(0, filename.length() - 4);
+					filename = filename.substring(0, filename.length() - 5);
+					
+				   
+					
 					String concatenatedOutput = query_id + " Q0 " + filename + " " + (i + 1)
-							+ " " + hits[i].score + "\n";					
-					docFileWriter.write(concatenatedOutput);
-				}				
+							+ " " + hits[i].score +"  " + "Lucene_Model\n";					
+					docFileWriter.write(concatenatedOutput); 
+		            
+		           
+				 
+				}	
+				
+				
 				query_id++;
-			} catch (Exception e) {
-				e.printStackTrace();
-				System.exit(-1);
 			}
+				catch (Exception e) 
+				{
+					e.printStackTrace();
+					System.exit(-1);
+				}
+			} 
+		
+			 
+         	
 
 		}
-		queryScan.close();
-		docFileWriter.close();
-	}
+		
+	
 
 	/**
 	 * Constructor
@@ -148,7 +169,7 @@ public class Lucene{
 	 * @throws java.io.IOException
 	 *             when exception creating index.
 	 */
-	Lucene(String indexDir) throws IOException {
+	HW4(String indexDir) throws IOException {
 
 		FSDirectory dir = FSDirectory.open(new File(indexDir));
 
@@ -228,7 +249,8 @@ public class Lucene{
 			}
 		}
 	}
-
+	
+	
 	/**
 	 * Close the index.
 	 * 
