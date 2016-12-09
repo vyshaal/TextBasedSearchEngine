@@ -1,9 +1,13 @@
-import pickle
 from collections import Counter
 from Phase_1 import RetrievalModel
-import operator
 import csv
 from Phase_1 import Snippet
+
+"""
+Generates ranked lists (in descending order) for all the given 64 queries in the stemmed version of corpus
+
+Note: Vector space model is used for retrieving the documents
+"""
 
 stem_table = "stemming_vsm.csv"
 
@@ -12,6 +16,7 @@ stem_corpus_path = "../given_files/cacm_stem.txt"
 stop_words_path = "../given_files/common_words"
 
 
+# retrieve documents generated for stemmed corpus
 def retrieve_docs():
     document_tokens = token_index()
     snippet_generator = Snippet.SnippetGenerator(document_tokens, stop_words_path)
@@ -35,6 +40,7 @@ def retrieve_docs():
     file.close()
 
 
+# retrieves set of queries from the given path
 def retrieve_query():
     query_dict = {}
     i = 1
@@ -45,6 +51,7 @@ def retrieve_query():
     return query_dict
 
 
+# builds document tokens for the stemmed corpus
 def token_index():
     document_tokens ={}
     tokens = ""
@@ -67,6 +74,7 @@ def token_index():
     return document_tokens
 
 
+# build inverted index for the stemmed corpus
 def build_index(document_tokens):
     inverted_index = {}
     for doc_id,tokens in document_tokens.items():
@@ -80,6 +88,7 @@ def build_index(document_tokens):
     return inverted_index
 
 
+# map docids for documents in stemmed corpus
 def retrieve_appropriate_docid(s):
     s = "CACM-" + s
     while len(s) < 9:

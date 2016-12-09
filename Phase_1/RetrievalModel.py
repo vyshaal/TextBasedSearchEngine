@@ -1,21 +1,29 @@
 import operator
-import pickle
 from collections import Counter
 import math
 
+"""
+    Cosine Similarity Model/Vector Space Model
+        Retrieves relevant documents on the basis of similarities between query and a document
+"""
+
 
 class CosineSimilarity:
+
+    # Constructor - Number of documents, inverted index, document tokens
     def __init__(self, N, inverted_index, document_tokens):
         self.N = N
         self.inverted_index = inverted_index
         self.document_tokens = document_tokens
 
+    # returns ranked list of documents for all queries
     def cosine_similarity_list(self, query_dict):
         ranked_list = {}
         for query_id,query in query_dict.items():
             ranked_list[query_id] = self.get_ranked_list(query)
         return ranked_list
 
+    # returns top 100 documents for each query
     def get_ranked_list(self, query):
         document_scores = {}
         query_magnitude = self.calculate_query_magnitude(query)
@@ -24,6 +32,7 @@ class CosineSimilarity:
             document_scores[doc] = self.cosine_sim_value(doc, query.split(), document_magnitude, query_magnitude)
         return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)[:100]
 
+    # returns magnitude of given document
     def calculate_document_magnitude(self, doc):
         magnitude = 0
         token_counter = Counter(self.document_tokens[doc])
@@ -34,6 +43,7 @@ class CosineSimilarity:
 
         return math.sqrt(magnitude)
 
+    # returns magnitude of given query
     def calculate_query_magnitude(self, query):
         magnitude = 0
         query_counter = Counter(query.split())
@@ -43,6 +53,7 @@ class CosineSimilarity:
             magnitude += math.pow(query_tf * query_idf, 2)
         return math.sqrt(magnitude)
 
+    # returns similarity value between a document and a query
     def cosine_sim_value(self, doc, query, document_magnitude, query_magnitude):
         cosine_value = 0
         token_counter = Counter(self.document_tokens[doc])
@@ -61,25 +72,35 @@ class CosineSimilarity:
         cosine_value /= 1.0 * document_magnitude * query_magnitude
         return cosine_value
 
+"""
+    TF-IDF Model
+        Retrieves relevant documents on the basis of TF-IDF weights (Term Frequency * Inverse Document Frequency
+"""
+
 
 class TFIDF:
+
+    # Constructor - Number of documents, inverted index, document tokens
     def __init__(self, N, inverted_index, document_tokens):
         self.N = N
         self.inverted_index = inverted_index
         self.document_tokens = document_tokens
 
+    # returns ranked list of documents for all queries
     def tf_idf_list(self, query_dict):
         ranked_list = {}
         for query_id,query in query_dict.items():
             ranked_list[query_id] = self.get_ranked_list(query)
         return ranked_list
 
+    # returns top 100 documents for each query
     def get_ranked_list(self, query):
         document_scores = {}
         for key, value in self.document_tokens.items():
             document_scores[key] = self.tf_idf_value(key, query.split())
         return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)[:100]
 
+    # returns weight of a document for a given query
     def tf_idf_value(self, doc, query):
         value = 0
         token_counter = Counter(self.document_tokens[doc])
@@ -95,8 +116,15 @@ class TFIDF:
         value /= 1.0
         return value
 
+"""
+    BM-25 Model
+        Retrieves relevant documents on the basis of relevance judgement
+"""
+
 
 class BM25:
+
+    # Constructor - Number of documents, inverted index, document tokens
     def __init__(self, N, inverted_index, document_tokens, relevance_dict):
         self.N = N
         self.inverted_index = inverted_index
@@ -107,35 +135,34 @@ class BM25:
         self.relevance_dict = relevance_dict
         self.avdl = self.get_avdl_value()
 
+    # returns ranked list of documents for all queries
     def bm_25_list(self, query_dict):
         ranked_list = {}
         for query_id,query in query_dict.items():
             ranked_list[query_id] = self.get_ranked_list(query,query_id)
         return ranked_list
 
+    # returns top 100 documents for each query
     def get_ranked_list(self, query, query_id):
         document_scores = {}
         for key, value in self.document_tokens.items():
             document_scores[key] = self.bm_25_value(key, query.split(), query_id)
         return sorted(document_scores.items(), key=operator.itemgetter(1), reverse=True)[:100]
 
+    # returns k values
     def get_k_value(self, doc):
         return self.k1 * (1 - self.b + self.b * (len(self.document_tokens[doc]) / self.avdl))
 
+    # returns average document length
     def get_avdl_value(self):
         return sum(len(value) for key, value in self.document_tokens.items()) / self.N
 
-    # Score is calculated using the formula
-
-    # iΣ log[((ri + 0.5)/(R - ri + 0.5)/(ni - ri + 0.5)/(N - ni - R + ri + 0.5)) * ((k1 + 1)/(K + fi)) * ((k2 + 1)qfi/(k2+qfi))]
-
-    #  K = k1((1-b)+b.dl/avdl)
-
+    # returns score of a document for a given query
     def bm_25_value(self, doc, query, query_id):
         value = 0
         token_counter = Counter(self.document_tokens[doc])
         k = self.get_k_value(doc)
-        R = self.get_R_value(query_id)
+        R = self.get_r_value(query_id)
         for token in query:
             if token in self.document_tokens[doc]:
                 qfi = Counter(query)[token]
@@ -154,6 +181,7 @@ class BM25:
         value /= 1.0
         return value
 
+    # returns number of relevant documents that contain the given token
     def get_ri_value(self,token,query_id):
         try:
             docids = str(self.relevance_dict[query_id]).split(',')
@@ -161,7 +189,8 @@ class BM25:
         except KeyError:
             return 0
 
-    def get_R_value(self,query_id):
+    # returns total number of relevant documents for given query
+    def get_r_value(self,query_id):
         try:
             return str(self.relevance_dict[query_id]).count(',') + 1
         except KeyError:

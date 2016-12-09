@@ -5,6 +5,13 @@ import operator
 import csv
 from Phase_1 import Snippet
 
+"""
+Generates ranked lists (in descending order) for all the given 64 queries using query expansion technique and Stopping
+
+Note: Vector space model is used for retrieving the documents
+      Psuedo relevance feedback for query expansion
+"""
+
 stop_words_path = "../given_files/common_words"
 
 inverted_index = pickle.load(open("../Phase_1/inverted_index.p", "rb"))
@@ -17,6 +24,7 @@ N = len(document_tokens)
 query_expansion_stopping_table = "query_expansion_with_stopping_vsm.csv"
 
 
+# retrieve documents using query expansion and stopping techniques
 def retrieve_docs():
     snippet_generator = Snippet.SnippetGenerator(document_tokens, "")
     stop_words = retrieve_stop_words()
@@ -46,6 +54,7 @@ def retrieve_docs():
     file.close()
 
 
+# returns a new query after psuedo relevance feedback (after updating new weights)
 def relevance_feedback_query(query, scores, updated_document_tokens):
     no_of_docs = 12
     docids = [i for i, j in scores][:no_of_docs]
@@ -68,6 +77,7 @@ def relevance_feedback_query(query, scores, updated_document_tokens):
     return " ".join(new_query)
 
 
+# retrieve stop words
 def retrieve_stop_words():
     stop_words = []
     with open(stop_words_path) as file:
@@ -77,6 +87,7 @@ def retrieve_stop_words():
     return stop_words
 
 
+# cleans corpus from the stop words
 def update_docs(stop_words):
     for key,values in document_tokens.items():
         document_tokens[key] = [x for x in values if x not in stop_words]
@@ -84,6 +95,7 @@ def update_docs(stop_words):
     return document_tokens
 
 
+# cleans queries from the stop words
 def update_queries(stop_words):
     for key,values in query_dict.items():
         query_dict[key] = " ".join([x for x in values.split() if x not in stop_words])

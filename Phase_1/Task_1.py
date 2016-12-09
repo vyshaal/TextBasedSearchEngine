@@ -1,11 +1,15 @@
 import pickle
-import operator
-from collections import Counter
-import os
-import math
 from Phase_1 import RetrievalModel
 from Phase_1 import Snippet
 import csv
+
+"""
+Generates ranked lists (in descending order) for all the given 64 queries using each of the following
+        Information Retrieval Models:
+            1) Vector Space Model
+            2) TF-IDF Model
+            3) BM-25 Model
+"""
 
 inverted_index = pickle.load(open("inverted_index.p", "rb"))
 document_tokens = pickle.load(open("document_tokens.p", "rb"))
@@ -24,6 +28,7 @@ query_file = open(query_file_path + "cacm.query","rb")
 dict = {}
 
 
+# calls each of the retrieval models
 def retrieve_relevant_documents():
     snippet_generator = Snippet.SnippetGenerator(document_tokens, stop_words_path)
     retrieve_cosine_sim_docs(snippet_generator)
@@ -31,6 +36,7 @@ def retrieve_relevant_documents():
     retrieve_bm_25_docs(snippet_generator)
 
 
+# retrieves ranked lists for vector space model
 def retrieve_cosine_sim_docs(snippet_generator):
     cosine_sim = RetrievalModel.CosineSimilarity(N, inverted_index, document_tokens)
     ranked_list = cosine_sim.cosine_similarity_list(query_dict)
@@ -51,6 +57,7 @@ def retrieve_cosine_sim_docs(snippet_generator):
     file.close()
 
 
+# retrieves ranked lists using TF-IDF model
 def retrieve_tf_idf__docs(snippet_generator):
     tf_idf = RetrievalModel.TFIDF(N, inverted_index, document_tokens)
     ranked_list = tf_idf.tf_idf_list(query_dict)
@@ -70,6 +77,7 @@ def retrieve_tf_idf__docs(snippet_generator):
     file.close()
 
 
+# retrieves ranked lists using BM-25 model
 def retrieve_bm_25_docs(snippet_generator):
     bm_25 = RetrievalModel.BM25(N, inverted_index, document_tokens, relevance_dict)
     ranked_list = bm_25.bm_25_list(query_dict)
@@ -87,5 +95,6 @@ def retrieve_bm_25_docs(snippet_generator):
                     print("Top Document for given query: " + score[0])
                     print("Snippet: \n" + snippet_generator.generate_snippet(score[0],query))
     file.close()
+
 
 retrieve_relevant_documents()

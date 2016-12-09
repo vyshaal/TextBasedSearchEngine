@@ -2,6 +2,14 @@ import csv
 import pickle
 import matplotlib.pyplot as plt
 
+"""
+    Assessing the performance of search engines in terms of retrieval effectiveness using following evaluation measures
+    1) MAP
+    2) MRR
+    3) P@K, K = 5 and 20
+    4) Precision and Recall
+"""
+
 relevance_dict = pickle.load(open("../Phase_1/relevance_dict.p", "rb"))
 
 vsm_file = open("../Phase_1/vsm.csv")
@@ -16,6 +24,7 @@ dir = "performance_acessment/"
 plots = "plots/"
 
 
+# calculate performance of all IR models using all evaluation measures
 def calculate_effectiveness(file,name):
     csv_reader = csv.reader(file)
     query_dict = {}
@@ -86,6 +95,7 @@ def calculate_effectiveness(file,name):
                   mean_average_precision,precision_dict,recall_dict,query_dict)
 
 
+# exporting all evaluation measures to spreadsheets
 def write_to_file(name,precision_at_5,precision_at_20,mean_reciprocal_rank,
                   mean_average_precision,precision_dict,recall_dict,query_dict):
 
@@ -137,6 +147,7 @@ def write_to_file(name,precision_at_5,precision_at_20,mean_reciprocal_rank,
     plt.clf()
 
 
+# generate spreadsheets for all the retrieval models
 def generate_tables():
     calculate_effectiveness(vsm_file,"vsm")
     calculate_effectiveness(bm25_file,"bm25")

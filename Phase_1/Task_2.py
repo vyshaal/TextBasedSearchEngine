@@ -5,6 +5,13 @@ import operator
 import csv
 from Phase_1 import Snippet
 
+"""
+Generates ranked lists (in descending order) for all the given 64 queries using query expansion technique
+
+Note: Vector space model is used for retrieving the documents
+      Psuedo relevance feedback for query expansion
+"""
+
 inverted_index = pickle.load(open("inverted_index.p", "rb"))
 document_tokens = pickle.load(open("document_tokens.p", "rb"))
 query_dict = pickle.load(open("query_dict.p", "rb"))
@@ -15,6 +22,7 @@ query_expansion_table = "query_expansion.csv"
 stop_words_path = "../given_files/common_words"
 
 
+# retrieves ranked lists generated using query expansion technique
 def retrieve_docs():
     snippet_generator = Snippet.SnippetGenerator(document_tokens,stop_words_path)
     model = RetrievalModel.CosineSimilarity(N, inverted_index, document_tokens)
@@ -40,6 +48,7 @@ def retrieve_docs():
     file.close()
 
 
+# returns updated query after psuedo_relevance_feedback
 def relevance_feedback_query(query,scores):
     no_of_docs = 12
     docids = [i for i,j in scores][:no_of_docs]

@@ -1,9 +1,13 @@
 import pickle
-from collections import Counter
 from Phase_1 import RetrievalModel
-import operator
 import csv
 from Phase_1 import Snippet
+
+"""
+Generates ranked lists (in descending order) for all the given 64 queries using Stopping technique
+
+Note: Vector space model is used for retrieving the documents
+"""
 
 stop_words_path = "../given_files/common_words"
 
@@ -17,6 +21,7 @@ N = len(document_tokens)
 stop_table = "stopping_vsm.csv"
 
 
+# retrieve documents generated using stopping technique
 def retrieve_docs():
     snippet_generator = Snippet.SnippetGenerator(document_tokens,"")
     stop_words = retrieve_stop_words()
@@ -40,6 +45,7 @@ def retrieve_docs():
     file.close()
 
 
+# retrieve stop words
 def retrieve_stop_words():
     stop_words = []
     with open(stop_words_path) as file:
@@ -49,6 +55,7 @@ def retrieve_stop_words():
     return stop_words
 
 
+# cleans stop words from the corpus
 def update_docs(stop_words):
     for key,values in document_tokens.items():
         document_tokens[key] = [x for x in values if x not in stop_words]
@@ -56,6 +63,7 @@ def update_docs(stop_words):
     return document_tokens
 
 
+# cleans stop words from the queries
 def update_queries(stop_words):
     for key,values in query_dict.items():
         query_dict[key] = " ".join([x for x in values.split() if x not in stop_words])
