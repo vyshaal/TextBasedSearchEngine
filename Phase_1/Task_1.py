@@ -4,6 +4,7 @@ from collections import Counter
 import os
 import math
 from Phase_1 import RetrievalModel
+from Phase_1 import Snippet
 import csv
 
 inverted_index = pickle.load(open("inverted_index.p", "rb"))
@@ -17,18 +18,20 @@ bm25_table = "bm25.csv"
 
 N = len(document_tokens)
 
+stop_words_path = "../given_files/common_words"
 query_file_path = "../given_files/"
 query_file = open(query_file_path + "cacm.query","rb")
 dict = {}
 
 
 def retrieve_relevant_documents():
-    retrieve_cosine_sim_docs()
-    retrieve_tf_idf__docs()
-    retrieve_bm_25_docs()
+    snippet_generator = Snippet.SnippetGenerator(document_tokens, stop_words_path)
+    retrieve_cosine_sim_docs(snippet_generator)
+    retrieve_tf_idf__docs(snippet_generator)
+    retrieve_bm_25_docs(snippet_generator)
 
 
-def retrieve_cosine_sim_docs():
+def retrieve_cosine_sim_docs(snippet_generator):
     cosine_sim = RetrievalModel.CosineSimilarity(N, inverted_index, document_tokens)
     ranked_list = cosine_sim.cosine_similarity_list(query_dict)
 
@@ -39,10 +42,16 @@ def retrieve_cosine_sim_docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "vector_space_model"))
+                if i == 1:
+                    query = query_dict[query_id]
+                    print("Given Query: " + query)
+                    print("Top Document for given query: " + score[0])
+                    print("Snippet: \n" + snippet_generator.generate_snippet(score[0],query))
+
     file.close()
 
 
-def retrieve_tf_idf__docs():
+def retrieve_tf_idf__docs(snippet_generator):
     tf_idf = RetrievalModel.TFIDF(N, inverted_index, document_tokens)
     ranked_list = tf_idf.tf_idf_list(query_dict)
 
@@ -53,10 +62,15 @@ def retrieve_tf_idf__docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "tf_idf"))
+                if i == 1:
+                    query = query_dict[query_id]
+                    print("Given Query: " + query)
+                    print("Top Document for given query: " + score[0])
+                    print("Snippet: \n" + snippet_generator.generate_snippet(score[0],query))
     file.close()
 
 
-def retrieve_bm_25_docs():
+def retrieve_bm_25_docs(snippet_generator):
     bm_25 = RetrievalModel.BM25(N, inverted_index, document_tokens, relevance_dict)
     ranked_list = bm_25.bm_25_list(query_dict)
 
@@ -67,6 +81,11 @@ def retrieve_bm_25_docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "bm_25"))
+                if i == 1:
+                    query = query_dict[query_id]
+                    print("Given Query: " + query)
+                    print("Top Document for given query: " + score[0])
+                    print("Snippet: \n" + snippet_generator.generate_snippet(score[0],query))
     file.close()
 
 retrieve_relevant_documents()

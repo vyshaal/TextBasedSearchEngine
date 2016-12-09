@@ -3,6 +3,7 @@ from collections import Counter
 from Phase_1 import RetrievalModel
 import operator
 import csv
+from Phase_1 import Snippet
 
 stop_words_path = "../given_files/common_words"
 
@@ -17,6 +18,7 @@ query_expansion_stopping_table = "query_expansion_with_stopping_vsm.csv"
 
 
 def retrieve_docs():
+    snippet_generator = Snippet.SnippetGenerator(document_tokens, "")
     stop_words = retrieve_stop_words()
     updated_document_tokens = update_docs(stop_words)
     updated_query_dict = update_queries(stop_words)
@@ -36,6 +38,11 @@ def retrieve_docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "query_expansion_with_stopping"))
+                if i == 1:
+                    query = query_dict[query_id]
+                    print("Given Query: " + query)
+                    print("Top Document for given query: " + score[0])
+                    print("Snippet: \n" + snippet_generator.generate_snippet(score[0],query))
     file.close()
 
 

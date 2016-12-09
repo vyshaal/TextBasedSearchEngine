@@ -3,6 +3,7 @@ from collections import Counter
 from Phase_1 import RetrievalModel
 import operator
 import csv
+from Phase_1 import Snippet
 
 inverted_index = pickle.load(open("inverted_index.p", "rb"))
 document_tokens = pickle.load(open("document_tokens.p", "rb"))
@@ -11,9 +12,11 @@ relevance_dict = pickle.load(open("relevance_dict.p", "rb"))
 
 N = len(document_tokens)
 query_expansion_table = "query_expansion.csv"
+stop_words_path = "../given_files/common_words"
 
 
 def retrieve_docs():
+    snippet_generator = Snippet.SnippetGenerator(document_tokens,stop_words_path)
     model = RetrievalModel.CosineSimilarity(N, inverted_index, document_tokens)
     ranked_list = model.cosine_similarity_list(query_dict)
     with open(query_expansion_table, "w") as file:
@@ -29,6 +32,11 @@ def retrieve_docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "query_expansion"))
+                if i == 1:
+                    query = query_dict[query_id]
+                    print("Given Query: " + query)
+                    print("Top Document for given query: " + score[0])
+                    print("Snippet: \n" + snippet_generator.generate_snippet(score[0],query))
     file.close()
 
 

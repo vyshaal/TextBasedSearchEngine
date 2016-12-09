@@ -166,3 +166,4 @@ class BM25:
             return str(self.relevance_dict[query_id]).count(',') + 1
         except KeyError:
             return 0
+

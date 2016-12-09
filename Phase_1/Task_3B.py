@@ -3,15 +3,18 @@ from collections import Counter
 from Phase_1 import RetrievalModel
 import operator
 import csv
+from Phase_1 import Snippet
 
 stem_table = "stemming_vsm.csv"
 
 stem_query_path = "../given_files/cacm_stem.query.txt"
 stem_corpus_path = "../given_files/cacm_stem.txt"
+stop_words_path = "../given_files/common_words"
 
 
 def retrieve_docs():
     document_tokens = token_index()
+    snippet_generator = Snippet.SnippetGenerator(document_tokens, stop_words_path)
     stem_query_dict = retrieve_query()
     inverted_index = build_index(document_tokens)
     model = RetrievalModel.CosineSimilarity(len(document_tokens), inverted_index, document_tokens)
@@ -24,6 +27,11 @@ def retrieve_docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "using_stemmed_words"))
+                if i == 1:
+                    query = stem_query_dict[query_id]
+                    print("Given Query: " + query)
+                    print("Top Document for given query: " + score[0])
+                    print("Snippet: \n" + snippet_generator.generate_snippet(score[0],query))
     file.close()
 
 
@@ -75,7 +83,7 @@ def build_index(document_tokens):
 def retrieve_appropriate_docid(s):
     s = "CACM-" + s
     while len(s) < 9:
-        s = s.replace("-","-0")
+        s = s.replace("-", "-0")
     return s
 
 retrieve_docs()
