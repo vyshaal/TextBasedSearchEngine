@@ -24,8 +24,6 @@ def retrieve_docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "using_stemmed_words"))
-                print(query_id,stem_query_dict[query_id])
-                print(score)
     file.close()
 
 

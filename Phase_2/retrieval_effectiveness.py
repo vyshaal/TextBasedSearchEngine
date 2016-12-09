@@ -25,7 +25,7 @@ def calculate_effectiveness(file,name):
         except KeyError:
             query_dict[row[0]] = [row[2]]
 
-    print(len(query_dict))
+    #print(len(query_dict))
     reciprocal_rank = []
     average_precision_list = []
     precision_at_5 = []
@@ -79,14 +79,8 @@ def calculate_effectiveness(file,name):
             average_precision_list.append(average_precision)
 
     mean_average_precision = sum(precision for precision in average_precision_list)/len(average_precision_list)
-    print(mean_average_precision)
-
-    print(precision_at_5)
-
-    print(precision_at_20)
 
     mean_reciprocal_rank = sum(rank for rank in reciprocal_rank)/len(reciprocal_rank)
-    print(mean_reciprocal_rank)
 
     write_to_file(name,precision_at_5,precision_at_20,mean_reciprocal_rank,
                   mean_average_precision,precision_dict,recall_dict,query_dict)
@@ -123,10 +117,14 @@ def write_to_file(name,precision_at_5,precision_at_20,mean_reciprocal_rank,
             if query_id in relevance_dict.keys():
                 i = 1
                 for doc in docs:
-                    print(query_id,i)
+                #    print(query_id,i)
                     precision_value = precision_dict[query_id][str(i)]
                     recall_value = recall_dict[query_id][str(i)]
-                    csv_writer.writerow((query_id,doc,precision_value,recall_value))
+                    if doc in relevance_dict[query_id]:
+                        rel = "R"
+                    else:
+                        rel = "NR"
+                    csv_writer.writerow((query_id,doc,precision_value,recall_value,rel))
                     i += 1
         file.close()
 
@@ -135,7 +133,6 @@ def write_to_file(name,precision_at_5,precision_at_20,mean_reciprocal_rank,
         recall_values = list(recall_dict[query_id].values())
 
         plt.plot(recall_values,precision_values)
-        print(query_id)
     plt.savefig(plots + name + '.png')
     plt.clf()
 

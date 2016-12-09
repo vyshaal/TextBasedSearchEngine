@@ -39,8 +39,6 @@ def retrieve_cosine_sim_docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "vector_space_model"))
-#                print(query_id,query_dict[query_id])
-#                print(score)
     file.close()
 
 
@@ -55,8 +53,6 @@ def retrieve_tf_idf__docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "tf_idf"))
-#                print(query_id,query_dict[query_id])
-#                print(score)
     file.close()
 
 
@@ -71,8 +67,6 @@ def retrieve_bm_25_docs():
             for score in scores:
                 i += 1
                 csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "bm_25"))
-#                print(query_id,query_dict[query_id])
-#                print(score)
     file.close()
 
 retrieve_relevant_documents()

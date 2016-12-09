@@ -25,23 +25,22 @@ def retrieve_docs():
 
     with open(query_expansion_stopping_table, "w") as file:
         csv_writer = csv.writer(file)
-
+        new_query_dict = {}
         for query_id, scores in ranked_list.items():
-#            print(query_id + " " + query_dict[query_id])
-#            print(scores)
-            updated_query = relevance_feedback_query(query_dict[query_id], scores, updated_document_tokens, stop_words)
-            updated_list = model.cosine_similarity_list({query_id: updated_query})
-            for qid,ss in updated_list.items():
-                i = 0
-                for score in ss:
-                    i += 1
-                    csv_writer.writerow((qid, "Q0", score[0], i, score[1], "query_expansion_with_stopping"))
-                    print(qid, query_dict[qid])
-                    print(score)
+            updated_query = relevance_feedback_query(query_dict[query_id],scores, updated_document_tokens)
+            new_query_dict[query_id] = updated_query
+
+        updated_list = model.cosine_similarity_list(new_query_dict)
+        for query_id, scores in updated_list.items():
+            i = 0
+            for score in scores:
+                i += 1
+                csv_writer.writerow((query_id, "Q0", score[0], i, score[1], "query_expansion_with_stopping"))
+    file.close()
 
 
-def relevance_feedback_query(query, scores, updated_document_tokens, stop_words):
-    no_of_docs = 15
+def relevance_feedback_query(query, scores, updated_document_tokens):
+    no_of_docs = 12
     docids = [i for i, j in scores][:no_of_docs]
 
     all_words = []
@@ -58,7 +57,7 @@ def relevance_feedback_query(query, scores, updated_document_tokens, stop_words)
     query_length = len(query.split())
     weighted_terms = sorted(query_term_weight.items(), key=operator.itemgetter(1), reverse=True)
 
-    new_query = [i for i, j in weighted_terms][:query_length + 5]
+    new_query = [i for i, j in weighted_terms][:query_length]
     return " ".join(new_query)
 
 
