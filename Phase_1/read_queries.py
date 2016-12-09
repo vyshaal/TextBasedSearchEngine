@@ -7,7 +7,7 @@ query_dict = {}
 
 
 def clean_content(s):
-    s = s.replace('-',' ').lower()
+    s = s.replace('-',' ').replace(':',' ').lower()
     s = ''.join(e for e in s if e.isalnum() or e == " ")
     return " ".join(s.split())
 

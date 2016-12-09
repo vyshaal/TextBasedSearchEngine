@@ -49,7 +49,7 @@ def filter_words(unigrams,docid):
 
 
 def clean_content(s):
-    s = s.replace('-',' ').lower()
+    s = s.replace('-',' ').replace(':',' ').lower()
     return ''.join(e for e in s if e.isalnum() or e == " ")
 
 

@@ -137,6 +137,7 @@ def write_to_file(name,precision_at_5,precision_at_20,mean_reciprocal_rank,
         plt.plot(recall_values,precision_values)
         print(query_id)
     plt.savefig(plots + name + '.png')
+    plt.clf()
 
 
 def generate_tables():

@@ -35,7 +35,7 @@ class CosineSimilarity:
 
     def calculate_query_magnitude(self, query):
         magnitude = 0
-        query_counter = Counter(query)
+        query_counter = Counter(query.split())
         for key, val in query_counter.items():
             query_tf = val
             query_idf = 1
