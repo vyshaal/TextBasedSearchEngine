@@ -68,4 +68,19 @@ def highlight_Sentence(sentence, query):
 
 
 if __name__ == "__main__":
-    print(highlight_Doc("I like articles. Boston Globe article are fantastic.", "article are"))
+    print(highlight_Doc("""Implementation of the SHARER2 Time Sharing System
+
+A simple mechanism is described for the execution
+of part of a program with its own memory
+protection.  This allows such a program to act as a
+suboperating system.  An improved version of the
+SHARER time-sharing system using this feature is described.
+CACM December, 1968
+
+Harrison, M. C.
+
+operating system, memory protection, time-sharing,
+multiprogramming, monitor, submonitor, suboperating
+system""",
+
+            'What articles exist which deal with TSS Time-Sharing System anoperating system for IBM computers'))
