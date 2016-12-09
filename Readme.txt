@@ -158,5 +158,5 @@ Lucene:
 
 -- HW4.java contains the lucene code for TASK-1.
 -- Configure the jar files from src/java_jar/
--- When run created index is in lucene/index, provide corpus -> ../given_files/cacm and output table is the document Lucene_csv 
+-- When run created index is in lucene/index, provide corpus -> ../given_files/cacm and output table is the document Lucene.csv (in Phase_1
    in the format Query_ID Q0 Doc_ID Rank Score Model_name.

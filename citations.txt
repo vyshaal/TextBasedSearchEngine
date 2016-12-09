@@ -1,9 +1,0 @@
-http://nlp.stanford.edu/IR-book/pdf/06vect.pdf
-http://bendemott.blogspot.com/2013/11/installing-pylucene-4-451.html
-http://lucene.apache.org/pylucene/
-http://people.cs.georgetown.edu/~nazli/classes/ir-Slides/QueryExpansion-RF-13.pdf
-https://github.com/rohanag/ADB-relevance-feedback-rocchio
-https://www.academia.edu/2787890/Relevance_feedback_and_inference_networks
-web.stanford.edu/class/cs276/handouts/lecture9-queryexpansion.ppt
-https://www.youtube.com/watch?v=WTlomM_iDVA&list=PLBv09BD7ez_6kGMKFo9JwQf8Ld13WyHRd&index=23
-https://www.youtube.com/watch?v=dOr4NX4Z6-g
